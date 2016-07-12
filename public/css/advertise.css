@@ -1,0 +1,951 @@
+/* 
+* @Author: zhouyan
+* @Date:   2015-09-21 14:46:16
+* @Last Modified by:   zhouyan
+* @Last Modified time: 2016-01-22 19:07:31
+*/
+html{
+	overflow-x: hidden;
+}
+.header {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+.header .inheader {
+    width: 1200px;
+    height: 65px;
+    line-height:65px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.notice{
+	position: absolute;
+	top:84px;
+	width:1200px;
+	left:30%;
+	color: red;
+}
+.predictPrice{
+	width:100px;
+	height:180px;
+	border: 1px solid #ccc;
+	position: fixed;
+	top:35%;
+	right:10%;
+	padding:10px 5px;
+	text-align:center;
+}
+.predictPrice .bt{
+	color:#333;
+	font-size:16px;
+}
+strong{
+	color:#f40;
+	text-align: center;
+}
+.current{
+  border: 1px solid #ccc;
+  background:-webkit-linear-gradient(top,#fff,#ccc);
+  background:-ms-linear-gradient(top,#fff,#ccc);
+  background:-moz-linear-gradient(top,#fff,#ccc);
+  background:-o-linear-gradient(top,#fff,#ccc);
+}
+.explain{
+	font-size:12px;
+	margin-top:40px;
+}
+.wrap{
+	overflow: hidden;
+	width:1200px;
+	margin:0 auto;
+	padding-top: 70px;
+}
+.nav{
+	float: left;
+	text-align:center;
+	/*margin-top:40px;*/
+}
+.nav li{
+	width:100%;
+	height:50px;
+	font-weight:bold;
+	background:#f8f8f8;
+	text-indent:center;
+	line-height:50px;
+	margin:0;
+	cursor: pointer;
+}
+.nav li.current,.current1{
+	background:#44b549;
+	color:#fff;
+}
+.nav li.current1{
+	background:#44b549;
+	color:#fff;
+}
+h5{
+	font-size:20px;
+	padding-left:54px;
+	font-weight:bold;
+	margin-bottom:30px;
+}
+.user-number{
+	padding:0;
+}
+
+label.logoError,label.error,label.audioError,label.documentError{
+  margin:2px 0;
+  font-weight:normal;
+  color:red;
+  font-size:12px;
+}
+label.control-label{
+	font-weight:normal;
+}
+label.control-label span{
+	color:red;
+	font-size:16px;
+}
+textarea{
+	resize:none;
+}
+h1{
+	text-indent:-9999px;
+	background:url('../images/logo.png') no-repeat;
+	-webkit-background-size:contain;
+	background-size:contain;
+}
+.btn{
+	/*margin:50px 260px;*/
+	width:200px;
+	line-height:28px;
+	font-size:18px;
+	font-weight:bold;
+}
+.footer{
+	text-align:center;
+	padding-right: 33%;
+}
+.modal-footer .btn{
+	margin:0;
+}
+.modal-dialog{
+	margin-top: -315px;
+  top: 50%;
+  position: inherit;
+  left: 50%;
+  margin-left: -300px;
+}
+.accordion{
+	border: 1px solid #ccc;
+	height:570px;
+	width:183px;
+	margin-bottom:10px;
+}
+.container-fluid{
+	padding:0;
+}
+.accordion-heading a{
+	font-size:16px;
+	color:#009900;
+	font-weight: 700;
+	line-height:50px;
+}
+.accordion-inner{
+	font-weight: 400;
+	font-size:16px;
+	line-height:38px;
+	padding-left:45px;
+}
+.help{
+	border: 1px solid #ccc;
+	background:url(../images/u68.png) no-repeat left center;
+	background-size:contain;
+	text-align:left;
+	padding-left:56px;
+
+}
+.help p,.help span{
+	font-size:16px;
+	font-weight:700px;
+}
+.help span{
+	color:#FF9D04;
+}
+p{
+	color:#999;
+}
+audio{
+	margin:10px 0;
+}
+textarea{
+	border-radius:5px;
+}
+.voice{
+	margin:45px 0;
+}
+.gray{
+  color: #999;
+}
+.hd{
+	text-indent:center;
+	height:100px;
+	line-height:100px;
+	font-size:20px;
+}
+#fullbg{  
+background-color: #000;
+display:none;  
+z-index:3;  
+position:fixed;  
+left:0px;  
+top:0px;  
+width:100%;  
+height:100%;  
+filter:Alpha(Opacity=30);  
+-moz-opacity:0.4;  
+opacity: 0.4;  
+}
+.form-group{
+	margin-top:30px;
+}
+.spot{
+	color:#009DDA;
+	cursor: pointer;
+	margin:-15px 0px 50px 202px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+.weekday input{
+	margin-left:30px;
+}
+label{
+	font-weight:normal;
+}
+.weekday{
+	position: relative;
+	top:6px;
+	left:-27px;
+}
+.dowebok{
+	position: relative;
+	/*padding-left:70px;*/
+	margin-bottom:0;
+}
+#scene{
+	padding-left:0;
+}
+.time,.dowebok dl{
+	margin-bottom:0;
+	margin-top:0;
+}
+.dowebok dt{
+	position: absolute;
+	top:19px;
+	left:19px;
+	font-weight:normal;
+}
+.labelauty-unchecked{
+	color:#666;
+}
+#dialog{
+width:300px;
+height:150px;
+background:#fff;
+position: fixed;
+top:39% !important;
+left: 43% !important;
+display: none;  
+z-index: 5;
+text-align:center;
+padding-top:25px;
+}
+#dialog input{
+	margin-top:25px;
+}
+#dialog a{
+	cursor:pointer;
+}
+#submit{
+	background:#44b549;
+	margin:0;
+	position: relative;
+}
+/*弹出层开始*/
+.none{
+	display: none;
+}
+.bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+.picBody{
+  background-color: #F3F3F3;
+  width: 530px;
+  height: 630px;
+  margin-left: -265px;
+  left: 50%;
+  position: absolute;
+  margin-top: -315px;
+  top: 50%;
+  border-radius: 9px;
+}
+.picBody h3{
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 5px 20px;
+}
+.picBody img{
+	width: 500px!important;
+	height: 500px!important;
+	border: 1px solid #eee;
+}
+.picBody .col-sm-12{
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 7px;
+  text-align: center;
+}
+/*弹出层结束*/
+.fileSelect{
+	margin-bottom: 10px;
+}
+#logoImg,#sponsorLogoImg{
+	width: 200px;
+	height: 200px;
+  border:1px solid #ccc;
+}
+.target{
+  margin-left: 0;
+  margin-top: 0;
+}
+.preview-pane-1 .preview-container,.preview-pane-3 .preview-container{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+.preview-pane-1 .preview-container img,.preview-pane-3 .preview-container img{
+	width: 100%;
+	height: 100%;
+}
+.preview-pane-1{
+	left: 218px;
+}
+.preview-pane{
+	position: absolute;
+	bottom: 0;
+  display: block;
+	width:112px;
+	height: 112px; 
+  padding: 6px;
+  margin-top: 10px;
+  border: 1px rgba(0,0,0,.4) solid;
+  background-color: white;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.preview-pane-2{
+	left: 350px;
+}
+.preview-pane-2 .circle,.preview-pane-4 .circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
+.preview-pane-2 .preview-container,.preview-pane-4 .preview-container{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	-webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.preview-pane-2 .preview-container img,.preview-pane-4 .preview-container img{
+	width: 100%;
+	height: 100%;
+	border:1px solid #ccc;
+}
+.preview-pane-3,.preview-pane-4{
+	left: 218px;
+}
+.hidden,.none{
+	display: none;
+}
+.jcrop-keymgr{
+	display: none!important;
+	left: 0!important;
+	z-index: -2!important;
+}
+.jcrop-holder{
+	left: 15px;
+}
+/*--------------多选效果---------------*/
+form{
+	width:1200px;
+	margin:0 auto 50px;
+	/*padding-top:30px;*/
+	float: left;
+	/*background:#f8f8f8;*/
+}
+dl,ul{ list-style-type: none;}
+dd,li{ display: inline-block;}
+dd,li{ margin: 10px 0;}
+input.labelauty + label { font: 12px "Microsoft Yahei";}
+/* Prevent text and blocks selection */
+input.labelauty + label ::selection { background-color: rgba(255, 255, 255, 0); }
+input.labelauty + label ::-moz-selection { background-color: rgba(255, 255, 255, 0); }
+
+/* Hide original checkboxes. They are ugly! */
+input.labelauty { display: none !important; }
+
+/*
+ * Let's style the input
+ * Feel free to work with it as you wish!
+ */
+input.labelauty + label{
+	display: table;
+	font-size: 13px;
+	padding: 10px;
+	font-weight:300px;
+	background-color: #efefef;
+	color: #b3b3b3;
+	cursor: pointer;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	transition: background-color 0.25s;
+	-moz-transition: background-color 0.25s;
+	-webkit-transition: background-color 0.25s;
+	-o-transition: background-color 0.25s;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+}
+/* Stylish text inside label */
+input.labelauty + label > span.labelauty-unchecked,
+input.labelauty + label > span.labelauty-checked{
+	display: inline-block;
+	line-height: 16px;
+	vertical-align: bottom;
+}
+/* Stylish icons inside label */
+input.labelauty + label > span.labelauty-unchecked-image,
+input.labelauty + label > span.labelauty-checked-image{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: bottom;
+	background-repeat: no-repeat;
+	background-position: left center;
+	transition: background-image 0.5s linear;
+	-moz-transition: background-image 0.5s linear;
+	-webkit-transition: background-image 0.5s linear;
+	-o-transition: background-image 0.5s linear;
+}
+
+/* When there's a label, add a little margin to the left */
+input.labelauty + label > span.labelauty-unchecked-image + span.labelauty-unchecked,
+input.labelauty + label > span.labelauty-checked-image + span.labelauty-checked{
+	margin-left: 7px;
+}
+/* When not Checked */
+input.labelauty:not(:checked):not([disabled]) + label:hover{
+	background-color: #eaeaea;
+	color: #a7a7a7;
+}
+input.labelauty:not(:checked) + label > span.labelauty-checked-image{
+	display: none;
+}
+
+input.labelauty:not(:checked) + label > span.labelauty-checked{
+	display: none;
+}
+/* When Checked */
+input.labelauty:checked + label{
+	background-color:#48c34d;
+	color: #ffffff;
+}
+input.labelauty:checked:not([disabled]) + label:hover{
+	background-color: #50d456;
+}
+input.labelauty:checked + label > span.labelauty-unchecked-image{
+	display: none;
+}
+input.labelauty:checked + label > span.labelauty-unchecked{
+	display: none;
+}
+input.labelauty:checked + label > span.labelauty-checked{
+	display: inline-block;
+}
+input.labelauty.no-label:checked + label > span.labelauty-checked{
+	display: block;
+}
+/* When Disabled */
+input.labelauty[disabled] + label{
+	opacity: 0.5;
+}
+/* Add a background to (un)checked images */
+input.labelauty + label > span.labelauty-unchecked-image{
+	background-image: url( ../images/input-unchecked.png );
+}
+input.labelauty + label > span.labelauty-checked-image{
+	background-image: url( ../images/input-checked.png );
+}
+#scene li{
+	margin-right:5px;
+}
+/*--------------多选效果---------------*/
+.dn{
+	display: none;
+}
+div.current{
+	display: block;
+}
+.modal-body{
+	height:500px;
+}
+.area{
+	/*border: 1px solid #000;*/
+	width:20%;
+	height:100%;
+	float: left;
+	line-height:50px;
+}
+.provincearea{
+	float: left;
+	/*border: 1px solid #000;*/
+	width:75%;
+	height:100%;
+	position: relative;
+}
+.province{
+	position: relative;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width:141px;
+}
+.area label{
+	display: block;
+}
+.quyu0{
+	margin:14px 0 12px 0;
+}
+.quyu2{
+	margin:30px 0 13px 0;
+}
+.quyu4{
+	margin:11px 0 12px 0;
+}
+.quyu5{
+	margin-bottom:10px;
+}
+label div{
+	font-size:12px;
+	display: inline-block;
+	*display: inline; 
+	*zoom: 1;
+}
+.city{
+	width:289px;
+	border: 1px solid #ccc;
+	position: absolute;
+	left:-123px;
+	top:17px;
+	display: none;
+	background:#fff;
+	z-index:99;
+	padding:5px 10px 10px 10px;
+}
+.city .off{
+	color:blue;
+	text-align: right;
+	cursor:pointer;
+}
+.city p{
+	text-align:center;
+	background:#ccc;
+ 	margin:0;
+}
+.city label{
+	width:89px;
+	white-space:nowrap;
+	overflow-x: hidden;
+	text-overflow:ellipsis;
+}
+.more{
+	cursor:pointer;
+}
+.choose{
+	background-color:rgba(228,228,228);
+	color:rgb(153,153,153);
+}
+.form-horizontal label.control-label{
+	padding-top:0px;
+}
+.tailedAdvert{
+	display: none;
+}
+.modal-body dd{
+	display: block;
+	overflow-x: hidden;
+	padding:0 30px;
+}
+.modal-body p{
+	color:#333;
+	margin:0;
+}
+/* #clipping .modal-body img{
+	width: 570px;
+	height: 470px;
+} */
+#Price-list .modal-body{
+	overflow-y: scroll;
+}
+.float-l{
+	float:left;
+}
+.float-r{
+	float:right;
+}
+.float-r span{
+	color:red;
+}
+.dowebok dd{
+	margin-right:10px;
+}
+/*新建开机广告*/
+.fileinput-button {
+	width: 100px;
+	height: 35px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  border: 1px solid transparent;
+  border-radius: 4px;
+ }
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px;
+  direction: ltr;
+  cursor: pointer;
+}
+#preview .modal-content{
+	width: 840px;
+	height: 580px;
+}
+#preview .modal-body{
+	overflow-y: scroll;
+	height: 452px;
+}
+.adPositionId{
+	width: 88%;
+	margin: 0 auto;
+}
+.adPositionId h4{
+	font-weight: bold;
+}
+.adPositionId img{
+	width: 100%;
+	height: 100%;
+}
+.adOne{
+	position: relative;
+	width: 669px;
+  height: 367px;
+	background: url("../images/1.jpg") no-repeat center center;
+	background-size: contain;
+}
+.startOne{
+	background: url("../images/startOne.png") no-repeat center center;
+	background-size: contain;
+}
+.startTwo{
+	background: url("../images/startTwo.png") no-repeat center center;
+	background-size: contain;
+	text-align: center;
+}
+.startThree{
+	background: url("../images/startThree.png") no-repeat center center;
+	background-size: contain;
+}
+.startOne div{
+	position: absolute;
+  width: 68px;
+  height: 68px;
+  bottom: 39px;
+  margin-left: -34px;
+	left: 50%;
+}
+.startOne div img{
+	border-radius: 50%;
+}
+.startTwo div{
+  width: 117px;
+  height: 117px;
+  margin: 0 auto;
+}
+.startTwo img{
+  margin-top: 20px;
+  margin-left: 1px;
+}
+.adPositionId p{
+	margin-top: 26px;
+	font-size: 35px;
+	font-weight: bolder;
+	color: #fff;
+
+}
+.startThree div{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+  right: 72px;
+  top: 9px;
+}
+.startThree div img{
+	border-radius: 50%;
+}
+/*冠名广告--广告位*/
+/*路况声音*/
+.adBackground{
+	position: relative;
+	width: 669px;
+  height: 367px;
+  margin: 15px;
+}
+.road{
+	background: url("../images/road.png") no-repeat center center;
+	background-size: contain;
+}
+.road div{
+	position: absolute;
+	width: 26px;
+	height: 26px;
+  bottom: 28px;
+  left: 255px;
+}
+.road div img{
+	border-radius: 50%;
+}
+/*电子狗LOGO*/
+.dog{
+	background: url("../images/dog.png") no-repeat center center;
+	background-size: contain;
+}
+.dog div{
+	position: absolute;
+	width: 45px;
+  height: 45px;
+  bottom: 84px;
+  right: 172px;
+}
+.dog div img{
+	border-radius: 13%;
+}
+/*思聪*/
+.sicong{
+	background: url("../images/sc.png") no-repeat center center;
+	background-size: contain;
+}
+.sicong div{
+	position: absolute;
+  width: 57.5px;
+  height: 57.5px;
+  right: 26.8px;
+  top: 63.5px;
+}
+.sicong div img{
+	border-radius: 13%;
+}
+/*角标*/
+.markOne{
+  background: url("../images/markOne.png") no-repeat center center;
+  background-size: contain;
+}
+.markTwo{
+  background: url("../images/markTwo.png") no-repeat center center;
+  background-size: contain;
+}
+.markBg{
+  position: absolute;
+  right: 50px;
+  bottom: 95px;
+  display: block;
+  height: 0;
+  width: 0px;
+  border-width: 0px 0px 53px 53px;
+  border-style: none solid solid;
+  border-color: transparent transparent #F47923;
+}
+.markBg p{
+  text-align: center;
+  width: 100px;
+  font-size: 12px;
+  transform: rotate(-45deg);
+  position: absolute;
+  /*top: -21px;
+  right: -48px;*/
+  top: -1px;
+  right: -29px;
+  -webkit-transform: scale(0.7) rotate(-45deg);
+  -o-transform: scale(0.7) rotate(-45deg);
+  -moz-transform: scale(0.7) rotate(-45deg);
+  -ms-transform: scale(0.7) rotate(-45deg);
+}
+.mark .markBg div{
+  width: 17px;
+  height: 17px;
+  z-index: 2;
+  position: absolute;
+  right: 2px;
+  bottom: -49px;
+}
+.mark div img{
+  border-radius: 50%;
+}
+.roadCondition{
+  position: relative;
+  left: 219px;
+  top: 88px;
+  font-size: 25px;
+  width: 399px;
+}
+.roadCondition p,.roadCondition span{
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+.markBorder{
+  position: absolute;
+  left: 19px;
+  top: 45px;
+  width: 204px;
+  height: 65px;
+  text-align: center;
+  padding-top: 13px;
+  font-weight: bolder;
+}
+.markBorder span{
+  margin-top: 12px;
+}
+.join{
+  position: absolute;
+  right: 24px;
+  top: 33px;
+}
+/*取色器*/
+#colorBoard{
+	position:absolute; 
+	padding:10px; 
+	width:278px; 
+	height:238px; 
+	background:#f3f3f3; 
+	border:#d9d9d9 1px solid;
+}
+#colorBank{ 
+	clear:both; 
+	border:#d9d9d9 1px solid; 
+	background:#FFF; 
+	width:256px; 
+	padding:0 0 2px 2px; 
+	overflow:hidden; 
+	margin:0 auto 0 auto;
+}
+#colorBank div{ 
+	overflow:hidden; 
+	height:12px; 
+	width:12px; 
+	margin:2px 2px 0 0; 
+	float:left; 
+	overflow:hidden; 
+	cursor:pointer;
+}
+#colorViews{
+	width:80px; 
+	height:20px; 
+	float:left;
+	border:#d9d9d9 1px solid; 
+	background:#000; 
+	display:block; 
+	margin: 0 10px 10px 0;
+}
+#colorInput{
+	width:70px; 
+	height:18px; 
+	float:left; 
+	font-family:Verdana; 
+	font-size:13px; 
+	color:#333; 
+	display:block; 
+	border:none; 
+	background:#FFF;
+	border:#d9d9d9 1px solid;
+	margin: 0 10px 10px 0;
+}
+#colorClose{
+	width:80px; 
+	color:#999999; 
+	height:22px; 
+	float:left;
+	display:block; 
+	background:#f3f3f3;
+	cursor:pointer;
+	border:#d9d9d9 1px solid; 
+	border-top:#FFF 1px solid; 
+	border-left:#FFF 1px solid;
+}
+#pageColorViews,#pageColor{
+  width:30px; 
+  height:30px;
+  border: 1px solid #ccc;
+}
+#pageColorViews{
+  background:#F47923; 
+}
+#pageColor{
+  background:#fff; 
+}
+/*路况看板广告*/
+.kanban{
+  background: url("../images/kanban.png") no-repeat center center;
+  background-size: contain;
+}
+.kanban div{
+  position: absolute;
+  width: 154.5px;
+  height: 59.5px;
+  right: 74.8px;
+  top: 9.5px;
+}
+.kanban div img{
+  border-radius: 25%;
+}
+#kanbanImg{
+  width: 240px;
+  height: 90px;
+  border:1px solid #ccc;
+  margin-top: 10px;
+}

@@ -1,0 +1,267 @@
+
+ul,li,input,select{list-style:none;padding:0;margin:0;}
+body {
+  background: #fff;
+  overflow-x: hidden; }
+label.error{
+  margin:2px 0;
+  font-weight:normal;
+  color:red;
+  font-size:12px;
+}
+.header {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+.header .inheader {
+    width: 1200px;
+    height: 65px;
+    line-height:65px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.help{
+  border: 1px solid #ccc;
+  background:url(../images/u68.png) no-repeat left center;
+  background-size:contain;
+  text-align:left;
+  padding-left:56px;
+
+}
+.help p,.help span{
+  font-size:16px;
+  font-weight:700px;
+}
+.help span{
+  color:#FF9D04;
+}
+.notice{
+  position: absolute;
+  top:84px;
+  width:1200px;
+  left:30%;
+  color: red;
+}
+.predictPrice{
+  width:100px;
+  height:180px;
+  border: 1px solid #ccc;
+  position: fixed;
+  top:35%;
+  right:10%;
+  padding:10px 5px;
+  text-align:center;
+}
+.predictPrice .bt{
+  color:#333;
+  font-size:16px;
+}
+strong{
+  color:#f40;
+  text-align: center;
+}
+.explain{
+  font-size:12px;
+  margin-top:40px;
+}
+.wrap{
+  overflow: hidden;
+  width:1200px;
+  margin:70px auto;
+}
+h5{
+  font-size:20px;
+  padding-left:54px;
+  font-weight:bold;
+  margin-bottom:30px;
+}
+.user-number{
+  padding:0;
+}
+.passworderror{
+  margin-top:7px;
+  padding-left:10px;
+  color:red;
+  font-size:12px;
+  display: none;
+}
+.ajaxerror{
+  color:red;
+  display: none;
+}
+label.error{
+  margin:2px 0;
+  font-weight:normal;
+  color:red;
+  font-size:12px;
+}
+label.control-label{
+  font-weight:normal;
+}
+label.control-label span{
+  color:red;
+  font-size:16px;
+}
+h1{
+  text-indent:-9999px;
+  background:url('../images/logo.png') no-repeat;
+  -webkit-background-size:contain;
+  background-size:contain;
+}
+.btn{
+  width:200px;
+  line-height:28px;
+  font-size:18px;
+  font-weight:bold;
+}
+.nav{
+  text-align:center;
+}
+.accordion{
+  border: 1px solid #ccc;
+  height:570px;
+  width:183px;
+  margin-bottom:10px;
+}
+.container-fluid{
+  padding:0;
+}
+.accordion-heading a{
+  font-size:16px;
+  color:#009900;
+  font-weight: 700;
+  line-height:50px;
+}
+.accordion-inner{
+  font-weight: 400;
+  font-size:16px;
+  line-height:38px;
+  padding-left:45px;
+}
+.current{
+  border: 1px solid #ccc;
+  background:-webkit-linear-gradient(top,#fff,#ccc);
+  background:-ms-linear-gradient(top,#fff,#ccc);
+  background:-moz-linear-gradient(top,#fff,#ccc);
+  background:-o-linear-gradient(top,#fff,#ccc);
+}
+h1{
+  text-indent:-9999px;
+  height: 65px;
+  width:265px;
+  background:url('../images/logo.png') no-repeat;
+  -webkit-background-size:contain;
+  background-size:contain;
+  margin:0;
+}
+.por{
+  position: relative;
+}
+.por span{
+  position: absolute;
+  top:10px;
+  right:-10px;
+  color:#44b549;
+  display:none;
+}
+.codeError,.codeSuccess{
+  display: none;
+}
+/*header开始*/
+.header {
+  width: 100%;
+  background: #fff; }
+.header .inheader {
+    width: 1200px;
+    height: 65px;
+    line-height:65px;
+    margin: 0 auto; }
+h6{
+	margin:0;
+	background:#999;
+}
+h1{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	float: left;
+}
+h5{
+  font-weight:bold;
+}
+.null{
+  font-size:14px;
+  color:red;
+  font-weight:normal;
+  display: none;
+}
+#phoneNumber{
+  padding:0;
+}
+.user-number{
+	float: right;
+}
+/* 主内容开始 */
+
+/*进度条开始*/
+.step{
+  height:44px;
+  width:100%;
+  margin-bottom:50px;
+  text-align:center;
+  line-height:44px;
+}
+.step li{
+  border-bottom:1px solid #f1f1f1;
+  padding:0;
+  color:#666;
+}
+.step li.bg{
+  background:url(../images/bg_processor218877.png) no-repeat top right;
+}
+.step li.current{
+  background:#44b549;
+  position: relative;
+  color:#fff;
+}
+ .step .current:before{
+  content:"";
+  width:14px;
+  height:44px;
+  background:url(../images/bg_processor218877.png) 0px 88px;
+  position: absolute;
+  top:0;
+  left:0;
+}
+/*主体内容开始*/
+.main h5{
+	border-bottom:1px solid #ccc;
+	line-height:50px;
+}
+.form-group{
+	margin:30px 0;
+}
+.form-group p{
+	color:#999;
+	margin:5px 0;
+}
+.operators form{border-bottom:1px solid #ccc;}
+label{font-weight:normal;}
+.sub{
+	margin:30px auto 100px;
+	text-align:center;
+}
+select{
+  height:34px;
+  border-radius:4px;
+  border:1px solid #ccc;
+  box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+}
+.fileSelect{
+  margin:10px 0;
+}
+/*主体内容结束*/
+.col-sm-4.por img{
+  width:100px;
+}

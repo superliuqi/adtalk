@@ -1,0 +1,1236 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;}
+audio:not([controls]){display:none;}
+[hidden]{display:none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;font-weight:normal;font-family:Arial,SimSun;font-size:1em;color:#262626;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;font-family:Arial,SimSun;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+a{text-decoration:none;}
+a:focus{outline:none;-moz-outline:none;}
+select{margin:0;}
+textarea{resize:none;}
+textarea:-webkit-autofill,input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px white inset;}
+body{font-size:13px;line-height:16px;background-color:#FFF;text-rendering:optimizeLegibility;}
+html{overflow-y:scroll;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;font-size:0;}
+.shadow{background:#fff;-moz-box-shadow:0 0 5px rgba(0,0,0,0.5);-webkit-box-shadow:0 0 5px rgba(0,0,0,0.5);box-shadow:0 0 5px rgba(0,0,0,0.5);}
+.bulletedList,.bulletedListContainer ul{list-style-type:disc;margin-left:16px;}
+.preLoaderBigDiv{background:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/bmwLoadingState/preloader_big.gif.resource.1450861918218.gif') no-repeat center transparent;height:66px;width:66px;display:none;}
+.preLoaderSmallDiv{background:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/bmwLoadingState/preloader_small.gif.resource.1450861918216.gif') no-repeat center transparent;height:34px;width:34px;display:none;}
+.hidden{visibility:hidden;}
+.ditherWrapper{position:relative;display:inline-block;}
+.ditherOverlay{background:transparent url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/dither/2_2_dither.png.resource.1450861918221.png') 0 0 repeat;position:absolute;display:block;height:100%;width:100%;z-index:200;top:0;right:0;}
+.productTile{width:180px;}
+.productTileImage{position:relative;width:180px;height:100px;}
+.productTileImage:hover{cursor:pointer;}
+.productTileDividerBar{background-color:#1C69D4;bottom:0;height:5px;margin:0;width:100%;display:none;}
+.productTileDetailsLink{height:16px;padding:3px 0 4px 1px;background-color:#FFF;display:none;}
+.productTileButtonContainer{display:none;background:none repeat scroll 0 0 transparent;}
+.productTileButtonContainer .buttonComp{margin-top:5px;}
+.productTileTextContainer{margin-top:8px;background:none repeat scroll 0 0 transparent;}
+.productTileImageHoverElems{width:100%;position:absolute;bottom:0;left:0;}
+.mailto{color:#666;font-weight:normal;text-decoration:underline;}
+.mailto:hover{color:#1C69D4;}
+.processTextWrapper{padding-bottom:19px;}
+.serviceOfferItemPrice{padding-top:3px;}
+.processTextWrapper .processTextWrapper,.processTextWrapperLast{padding-bottom:0;}
+.glassPaneLayerContent .processTextWrapperLast{padding-bottom:27px;}
+table .processTextWrapper{padding-bottom:0;}
+.printBgLayer{display:none;}
+.idModuleBg{display:none;}
+.x-form-item-description-floatfix{float:left;}
+div.two-columns-c0{width:23%;min-height:1px;float:left;}
+div.two-columns-c1{width:50%;min-height:1px;float:left;}
+div.two-columns2-c0{width:46%;min-height:1px;float:left;display:inline-block;margin:30px 0 10px 30px;}
+div.two-columns2-c1{width:46%;min-height:1px;float:left;display:inline-block;margin:30px 0 10px 30px;}
+div.three-columns-c0{width:33%;min-height:1px;float:left;}
+div.three-columns-c1{width:33%;min-height:1px;float:left;}
+div.three-columns-c2{width:33%;min-height:1px;float:left;}
+div.four-columns-c0{width:23%;min-height:1px;float:left;margin-left:1%;}
+div.four-columns-c1{width:16%;min-height:1px;float:left;margin-right:1%;}
+div.four-columns-c2{width:16%;min-height:1px;float:left;margin-right:1%;}
+div.four-columns-c3{width:16%;min-height:1px;float:left;}
+.ui-helper-hidden{display:none;}
+.ui-helper-hidden-accessible{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);}
+.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none;}
+.ui-helper-clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.ui-helper-clearfix{display:inline-block;}
+/* required comment for clearfix to work in Opera \*/ * html .ui-helper-clearfix{height:1%;}
+.ui-helper-clearfix{display:block;}
+/* end clearfix */ .ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0);}
+.ui-state-disabled{cursor:default!important;}
+.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat;}
+.ui-widget-overlay{position:absolute;top:0;left:0;width:100%;height:100%;}
+.ui-widget{font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;font-size:1.1em;}
+.ui-widget .ui-widget{font-size:1em;}
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;font-size:1em;}
+.ui-widget-content{border:1px solid #ddd;background:#eee url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-bg_highlight-soft_100_eeeeee_1x100.png') 50% top repeat-x;color:#333;}
+.ui-widget-content a{color:#333;}
+.ui-widget-header{border:1px solid #e78f08;background:#f6a828 url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-bg_gloss-wave_35_f6a828_500x100.png') 50% 50% repeat-x;color:#fff;font-weight:bold;}
+.ui-widget-header a{color:#fff;}
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{border:1px solid #ccc;background:#f6f6f6 url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-bg_glass_100_f6f6f6_1x400.png') 50% 50% repeat-x;font-weight:bold;color:#1c94c4;}
+.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#1c94c4;text-decoration:none;}
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:1px solid #fbcb09;background:#fdf5ce url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-bg_glass_100_fdf5ce_1x400.png') 50% 50% repeat-x;font-weight:bold;color:#c77405;}
+.ui-state-hover a,.ui-state-hover a:hover{color:#c77405;text-decoration:none;}
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{border:1px solid #fbd850;background:#fff url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-bg_glass_65_ffffff_1x400.png') 50% 50% repeat-x;font-weight:bold;color:#eb8f00;}
+.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#eb8f00;text-decoration:none;}
+.ui-widget :active{outline:none;}
+.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{border:1px solid #fed22f;background:#ffe45c url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-bg_highlight-soft_75_ffe45c_1x100.png') 50% top repeat-x;color:#363636;}
+.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{color:#363636;}
+.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{border:1px solid #cd0a0a;background:#b81900 url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-bg_diagonals-thick_18_b81900_40x40.png') 50% 50% repeat;color:#fff;}
+.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{color:#fff;}
+.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{color:#fff;}
+.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary{font-weight:bold;}
+.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal;}
+.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);background-image:none;}
+.ui-icon{width:16px;height:16px;background-image:url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-icons_222222_256x240.png');}
+.ui-widget-content .ui-icon{background-image:url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-icons_222222_256x240.png');}
+.ui-widget-header .ui-icon{background-image:url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-icons_ffffff_256x240.png');}
+.ui-state-default .ui-icon{background-image:url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-icons_ef8c08_256x240.png');}
+.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-icons_ef8c08_256x240.png');}
+.ui-state-active .ui-icon{background-image:url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-icons_ef8c08_256x240.png');}
+.ui-state-highlight .ui-icon{background-image:url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-icons_228ef1_256x240.png');}
+.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-icons_ffd27a_256x240.png');}
+.ui-icon-carat-1-n{background-position:0 0;}
+.ui-icon-carat-1-ne{background-position:-16px 0;}
+.ui-icon-carat-1-e{background-position:-32px 0;}
+.ui-icon-carat-1-se{background-position:-48px 0;}
+.ui-icon-carat-1-s{background-position:-64px 0;}
+.ui-icon-carat-1-sw{background-position:-80px 0;}
+.ui-icon-carat-1-w{background-position:-96px 0;}
+.ui-icon-carat-1-nw{background-position:-112px 0;}
+.ui-icon-carat-2-n-s{background-position:-128px 0;}
+.ui-icon-carat-2-e-w{background-position:-144px 0;}
+.ui-icon-triangle-1-n{background-position:0 -16px;}
+.ui-icon-triangle-1-ne{background-position:-16px -16px;}
+.ui-icon-triangle-1-e{background-position:-32px -16px;}
+.ui-icon-triangle-1-se{background-position:-48px -16px;}
+.ui-icon-triangle-1-s{background-position:-64px -16px;}
+.ui-icon-triangle-1-sw{background-position:-80px -16px;}
+.ui-icon-triangle-1-w{background-position:-96px -16px;}
+.ui-icon-triangle-1-nw{background-position:-112px -16px;}
+.ui-icon-triangle-2-n-s{background-position:-128px -16px;}
+.ui-icon-triangle-2-e-w{background-position:-144px -16px;}
+.ui-icon-arrow-1-n{background-position:0 -32px;}
+.ui-icon-arrow-1-ne{background-position:-16px -32px;}
+.ui-icon-arrow-1-e{background-position:-32px -32px;}
+.ui-icon-arrow-1-se{background-position:-48px -32px;}
+.ui-icon-arrow-1-s{background-position:-64px -32px;}
+.ui-icon-arrow-1-sw{background-position:-80px -32px;}
+.ui-icon-arrow-1-w{background-position:-96px -32px;}
+.ui-icon-arrow-1-nw{background-position:-112px -32px;}
+.ui-icon-arrow-2-n-s{background-position:-128px -32px;}
+.ui-icon-arrow-2-ne-sw{background-position:-144px -32px;}
+.ui-icon-arrow-2-e-w{background-position:-160px -32px;}
+.ui-icon-arrow-2-se-nw{background-position:-176px -32px;}
+.ui-icon-arrowstop-1-n{background-position:-192px -32px;}
+.ui-icon-arrowstop-1-e{background-position:-208px -32px;}
+.ui-icon-arrowstop-1-s{background-position:-224px -32px;}
+.ui-icon-arrowstop-1-w{background-position:-240px -32px;}
+.ui-icon-arrowthick-1-n{background-position:0 -48px;}
+.ui-icon-arrowthick-1-ne{background-position:-16px -48px;}
+.ui-icon-arrowthick-1-e{background-position:-32px -48px;}
+.ui-icon-arrowthick-1-se{background-position:-48px -48px;}
+.ui-icon-arrowthick-1-s{background-position:-64px -48px;}
+.ui-icon-arrowthick-1-sw{background-position:-80px -48px;}
+.ui-icon-arrowthick-1-w{background-position:-96px -48px;}
+.ui-icon-arrowthick-1-nw{background-position:-112px -48px;}
+.ui-icon-arrowthick-2-n-s{background-position:-128px -48px;}
+.ui-icon-arrowthick-2-ne-sw{background-position:-144px -48px;}
+.ui-icon-arrowthick-2-e-w{background-position:-160px -48px;}
+.ui-icon-arrowthick-2-se-nw{background-position:-176px -48px;}
+.ui-icon-arrowthickstop-1-n{background-position:-192px -48px;}
+.ui-icon-arrowthickstop-1-e{background-position:-208px -48px;}
+.ui-icon-arrowthickstop-1-s{background-position:-224px -48px;}
+.ui-icon-arrowthickstop-1-w{background-position:-240px -48px;}
+.ui-icon-arrowreturnthick-1-w{background-position:0 -64px;}
+.ui-icon-arrowreturnthick-1-n{background-position:-16px -64px;}
+.ui-icon-arrowreturnthick-1-e{background-position:-32px -64px;}
+.ui-icon-arrowreturnthick-1-s{background-position:-48px -64px;}
+.ui-icon-arrowreturn-1-w{background-position:-64px -64px;}
+.ui-icon-arrowreturn-1-n{background-position:-80px -64px;}
+.ui-icon-arrowreturn-1-e{background-position:-96px -64px;}
+.ui-icon-arrowreturn-1-s{background-position:-112px -64px;}
+.ui-icon-arrowrefresh-1-w{background-position:-128px -64px;}
+.ui-icon-arrowrefresh-1-n{background-position:-144px -64px;}
+.ui-icon-arrowrefresh-1-e{background-position:-160px -64px;}
+.ui-icon-arrowrefresh-1-s{background-position:-176px -64px;}
+.ui-icon-arrow-4{background-position:0 -80px;}
+.ui-icon-arrow-4-diag{background-position:-16px -80px;}
+.ui-icon-extlink{background-position:-32px -80px;}
+.ui-icon-newwin{background-position:-48px -80px;}
+.ui-icon-refresh{background-position:-64px -80px;}
+.ui-icon-shuffle{background-position:-80px -80px;}
+.ui-icon-transfer-e-w{background-position:-96px -80px;}
+.ui-icon-transferthick-e-w{background-position:-112px -80px;}
+.ui-icon-folder-collapsed{background-position:0 -96px;}
+.ui-icon-folder-open{background-position:-16px -96px;}
+.ui-icon-document{background-position:-32px -96px;}
+.ui-icon-document-b{background-position:-48px -96px;}
+.ui-icon-note{background-position:-64px -96px;}
+.ui-icon-mail-closed{background-position:-80px -96px;}
+.ui-icon-mail-open{background-position:-96px -96px;}
+.ui-icon-suitcase{background-position:-112px -96px;}
+.ui-icon-comment{background-position:-128px -96px;}
+.ui-icon-person{background-position:-144px -96px;}
+.ui-icon-print{background-position:-160px -96px;}
+.ui-icon-trash{background-position:-176px -96px;}
+.ui-icon-locked{background-position:-192px -96px;}
+.ui-icon-unlocked{background-position:-208px -96px;}
+.ui-icon-bookmark{background-position:-224px -96px;}
+.ui-icon-tag{background-position:-240px -96px;}
+.ui-icon-home{background-position:0 -112px;}
+.ui-icon-flag{background-position:-16px -112px;}
+.ui-icon-calendar{background-position:-32px -112px;}
+.ui-icon-cart{background-position:-48px -112px;}
+.ui-icon-pencil{background-position:-64px -112px;}
+.ui-icon-clock{background-position:-80px -112px;}
+.ui-icon-disk{background-position:-96px -112px;}
+.ui-icon-calculator{background-position:-112px -112px;}
+.ui-icon-zoomin{background-position:-128px -112px;}
+.ui-icon-zoomout{background-position:-144px -112px;}
+.ui-icon-search{background-position:-160px -112px;}
+.ui-icon-wrench{background-position:-176px -112px;}
+.ui-icon-gear{background-position:-192px -112px;}
+.ui-icon-heart{background-position:-208px -112px;}
+.ui-icon-star{background-position:-224px -112px;}
+.ui-icon-link{background-position:-240px -112px;}
+.ui-icon-cancel{background-position:0 -128px;}
+.ui-icon-plus{background-position:-16px -128px;}
+.ui-icon-plusthick{background-position:-32px -128px;}
+.ui-icon-minus{background-position:-48px -128px;}
+.ui-icon-minusthick{background-position:-64px -128px;}
+.ui-icon-close{background-position:-80px -128px;}
+.ui-icon-closethick{background-position:-96px -128px;}
+.ui-icon-key{background-position:-112px -128px;}
+.ui-icon-lightbulb{background-position:-128px -128px;}
+.ui-icon-scissors{background-position:-144px -128px;}
+.ui-icon-clipboard{background-position:-160px -128px;}
+.ui-icon-copy{background-position:-176px -128px;}
+.ui-icon-contact{background-position:-192px -128px;}
+.ui-icon-image{background-position:-208px -128px;}
+.ui-icon-video{background-position:-224px -128px;}
+.ui-icon-script{background-position:-240px -128px;}
+.ui-icon-alert{background-position:0 -144px;}
+.ui-icon-info{background-position:-16px -144px;}
+.ui-icon-notice{background-position:-32px -144px;}
+.ui-icon-help{background-position:-48px -144px;}
+.ui-icon-check{background-position:-64px -144px;}
+.ui-icon-bullet{background-position:-80px -144px;}
+.ui-icon-radio-off{background-position:-96px -144px;}
+.ui-icon-radio-on{background-position:-112px -144px;}
+.ui-icon-pin-w{background-position:-128px -144px;}
+.ui-icon-pin-s{background-position:-144px -144px;}
+.ui-icon-play{background-position:0 -160px;}
+.ui-icon-pause{background-position:-16px -160px;}
+.ui-icon-seek-next{background-position:-32px -160px;}
+.ui-icon-seek-prev{background-position:-48px -160px;}
+.ui-icon-seek-end{background-position:-64px -160px;}
+.ui-icon-seek-start{background-position:-80px -160px;}
+.ui-icon-seek-first{background-position:-80px -160px;}
+.ui-icon-stop{background-position:-96px -160px;}
+.ui-icon-eject{background-position:-112px -160px;}
+.ui-icon-volume-off{background-position:-128px -160px;}
+.ui-icon-volume-on{background-position:-144px -160px;}
+.ui-icon-power{background-position:0 -176px;}
+.ui-icon-signal-diag{background-position:-16px -176px;}
+.ui-icon-signal{background-position:-32px -176px;}
+.ui-icon-battery-0{background-position:-48px -176px;}
+.ui-icon-battery-1{background-position:-64px -176px;}
+.ui-icon-battery-2{background-position:-80px -176px;}
+.ui-icon-battery-3{background-position:-96px -176px;}
+.ui-icon-circle-plus{background-position:0 -192px;}
+.ui-icon-circle-minus{background-position:-16px -192px;}
+.ui-icon-circle-close{background-position:-32px -192px;}
+.ui-icon-circle-triangle-e{background-position:-48px -192px;}
+.ui-icon-circle-triangle-s{background-position:-64px -192px;}
+.ui-icon-circle-triangle-w{background-position:-80px -192px;}
+.ui-icon-circle-triangle-n{background-position:-96px -192px;}
+.ui-icon-circle-arrow-e{background-position:-112px -192px;}
+.ui-icon-circle-arrow-s{background-position:-128px -192px;}
+.ui-icon-circle-arrow-w{background-position:-144px -192px;}
+.ui-icon-circle-arrow-n{background-position:-160px -192px;}
+.ui-icon-circle-zoomin{background-position:-176px -192px;}
+.ui-icon-circle-zoomout{background-position:-192px -192px;}
+.ui-icon-circle-check{background-position:-208px -192px;}
+.ui-icon-circlesmall-plus{background-position:0 -208px;}
+.ui-icon-circlesmall-minus{background-position:-16px -208px;}
+.ui-icon-circlesmall-close{background-position:-32px -208px;}
+.ui-icon-squaresmall-plus{background-position:-48px -208px;}
+.ui-icon-squaresmall-minus{background-position:-64px -208px;}
+.ui-icon-squaresmall-close{background-position:-80px -208px;}
+.ui-icon-grip-dotted-vertical{background-position:0 -224px;}
+.ui-icon-grip-dotted-horizontal{background-position:-16px -224px;}
+.ui-icon-grip-solid-vertical{background-position:-32px -224px;}
+.ui-icon-grip-solid-horizontal{background-position:-48px -224px;}
+.ui-icon-gripsmall-diagonal-se{background-position:-64px -224px;}
+.ui-icon-grip-diagonal-se{background-position:-80px -224px;}
+.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{-moz-border-radius-topleft:4px;-webkit-border-top-left-radius:4px;-khtml-border-top-left-radius:4px;border-top-left-radius:4px;}
+.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{-moz-border-radius-topright:4px;-webkit-border-top-right-radius:4px;-khtml-border-top-right-radius:4px;border-top-right-radius:4px;}
+.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;-khtml-border-bottom-left-radius:4px;border-bottom-left-radius:4px;}
+.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px;-khtml-border-bottom-right-radius:4px;border-bottom-right-radius:4px;}
+.ui-widget-overlay{background:#666 url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-bg_diagonals-thick_20_666666_40x40.png') 50% 50% repeat;opacity:.50;filter:Alpha(Opacity=50);}
+.ui-widget-shadow{margin:-5px 0 0 -5px;padding:5px;background:#000 url('/apps/bmwnext/base/common/css/jquery_ui/original/css_generic_global/images/ui-bg_flat_10_000000_40x100.png') 50% 50% repeat-x;opacity:.20;filter:Alpha(Opacity=20);-moz-border-radius:5px;-khtml-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+.ui-autocomplete{position:absolute;cursor:default;}
+* html .ui-autocomplete{width:1px;}
+.ui-menu{list-style:none;padding:2px;margin:0;display:block;float:left;}
+.ui-menu .ui-menu{margin-top:-3px;}
+.ui-menu .ui-menu-item{margin:0;padding:0;zoom:1;float:left;clear:left;width:100%;}
+.ui-menu .ui-menu-item a{text-decoration:none;display:block;padding:.2em .4em;line-height:1.5;zoom:1;}
+.ui-menu .ui-menu-item a.ui-state-hover,.ui-menu .ui-menu-item a.ui-state-active{font-weight:normal;margin:-1px;}
+.ui-slider{position:relative;text-align:left;}
+.ui-slider .ui-slider-handle{position:absolute;z-index:2;width:1.2em;height:1.2em;cursor:default;}
+.ui-slider .ui-slider-range{position:absolute;z-index:1;font-size:.7em;display:block;border:0;background-position:0 0;}
+.ui-slider-horizontal{height:.8em;}
+.ui-slider-horizontal .ui-slider-handle{top:-.3em;margin-left:-.6em;}
+.ui-slider-horizontal .ui-slider-range{top:0;height:100%;}
+.ui-slider-horizontal .ui-slider-range-min{left:0;}
+.ui-slider-horizontal .ui-slider-range-max{right:0;}
+.ui-slider-vertical{width:.8em;height:100px;}
+.ui-slider-vertical .ui-slider-handle{left:-.3em;margin-left:0;margin-bottom:-.6em;}
+.ui-slider-vertical .ui-slider-range{left:0;width:100%;}
+.ui-slider-vertical .ui-slider-range-min{bottom:0;}
+.ui-slider-vertical .ui-slider-range-max{top:0;}
+.ui-tabs{position:relative;padding:.2em;zoom:1;}
+.ui-tabs .ui-tabs-nav{margin:0;padding:.2em .2em 0;}
+.ui-tabs .ui-tabs-nav li{list-style:none;float:left;position:relative;top:1px;margin:0 .2em 1px 0;border-bottom:0!important;padding:0;white-space:nowrap;}
+.ui-tabs .ui-tabs-nav li a{float:left;padding:.5em 1em;text-decoration:none;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected{margin-bottom:0;padding-bottom:1px;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,.ui-tabs .ui-tabs-nav li.ui-state-disabled a,.ui-tabs .ui-tabs-nav li.ui-state-processing a{cursor:text;}
+.ui-tabs .ui-tabs-nav li a,.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a{cursor:pointer;}
+.ui-tabs .ui-tabs-panel{display:block;border-width:0;padding:1em 1.4em;background:none;}
+.ui-tabs .ui-tabs-hide{display:none!important;}
+.ui-datepicker{width:17em;padding:.2em .2em 0;display:none;}
+.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0;}
+.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em;}
+.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px;}
+.ui-datepicker .ui-datepicker-prev{left:2px;}
+.ui-datepicker .ui-datepicker-next{right:2px;}
+.ui-datepicker .ui-datepicker-prev-hover{left:1px;}
+.ui-datepicker .ui-datepicker-next-hover{right:1px;}
+.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px;}
+.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center;}
+.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0;}
+.ui-datepicker select.ui-datepicker-month-year{width:100%;}
+.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%;}
+.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em;}
+.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0;}
+.ui-datepicker td{border:0;padding:1px;}
+.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none;}
+.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0;}
+.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible;}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left;}
+.ui-datepicker.ui-datepicker-multi{width:auto;}
+.ui-datepicker-multi .ui-datepicker-group{float:left;}
+.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em;}
+.ui-datepicker-multi-2 .ui-datepicker-group{width:50%;}
+.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%;}
+.ui-datepicker-multi-4 .ui-datepicker-group{width:25%;}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header{border-left-width:0;}
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0;}
+.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left;}
+.ui-datepicker-row-break{clear:both;width:100%;font-size:0;}
+.ui-datepicker-rtl{direction:rtl;}
+.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto;}
+.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto;}
+.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto;}
+.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto;}
+.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right;}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left;}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current{float:right;}
+.ui-datepicker-rtl .ui-datepicker-group{float:right;}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header{border-right-width:0;border-left-width:1px;}
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px;}
+.ui-datepicker-cover{display:none;display:block;position:absolute;z-index:-1;filter:mask();top:-4px;left:-4px;width:200px;height:200px;}
+.ui-widget-overlay{background-color:#000;background-image:none;filter:Alpha(Opacity=75);opacity:.75;-moz-opacity:.75;-khtml-opacity:.75;}
+.ui-widget-content{outline:none;color:inherit;background-image:none;}
+.ui-widget-content .buttonComp{color:#FFF;}
+.ui-widget-content a{color:#666;}
+.ui-widget-header{background-image:none;}
+.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{-moz-border-radius-topleft:0;-webkit-border-top-left-radius:0;-khtml-border-top-left-radius:0;border-top-left-radius:0;}
+.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{-moz-border-radius-topright:0;-webkit-border-top-right-radius:0;-khtml-border-top-right-radius:0;border-top-right-radius:0;}
+.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{-moz-border-radius-bottomleft:0;-webkit-border-bottom-left-radius:0;-khtml-border-bottom-left-radius:0;border-bottom-left-radius:0;}
+.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{-moz-border-radius-bottomright:0;-webkit-border-bottom-right-radius:0;-khtml-border-bottom-right-radius:0;border-bottom-right-radius:0;}
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{border:0;background:white;font-weight:normal;color:#888;}
+.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#888;}
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:0;background:#FFF;font-weight:normal;color:#1C69D4;}
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{border:0;background:#fff;font-weight:normal;color:#1C69D4;}
+.ui-state-hover a,.ui-state-hover a:hover{color:#1C69D4;}
+.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#1C69D4;}
+div#ui-datepicker-div{width:241px;padding:0;background-color:#fff;-moz-box-shadow:0 0 3px rgba(0,0,0,0.5);-webkit-box-shadow:0 0 3px rgba(0,0,0,0.5);box-shadow:0 0 3px rgba(0,0,0,0.5);}
+.ui-datepicker .ui-datepicker-header{position:relative;margin-top:12px;padding:0;background-color:#fff;border:none;width:241px;}
+.ui-datepicker .ui-datepicker-header .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);}
+.ui-datepicker .ui-datepicker-header .ui-state-disabled .ui-icon{cursor:default;opacity:.35;filter:Alpha(Opacity=35);}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-title{color:#262626;font-family:BMWType_Bold,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:16px;overflow:hidden;text-align:center;vertical-align:top;padding-bottom:2px;margin-bottom:6px;margin-left:56px;margin-right:29px;}
+.ui-datepicker-header .ui-icon{cursor:pointer;background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/icons.png.resource.1450861918234.png');}
+.ui-icon-circle-triangle-w{background-position:-600px 0;}
+.ui-icon-circle-triangle-w:hover{background-position:-600px -30px;}
+.ui-icon-circle-triangle-e{background-position:-690px 0;}
+.ui-icon-circle-triangle-e:hover{background-position:-690px -30px;}
+.ui-state-hover,.ui-datepicker .ui-datepicker-next-hover,.ui-datepicker .ui-datepicker-prev-hover{background:none;}
+.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{top:-3px;}
+.ui-datepicker .ui-datepicker-prev{left:40px;}
+.ui-datepicker .ui-datepicker-next{right:8px;}
+.ui-datepicker table{border-collapse:collapse;width:210px;margin-left:15px;margin-right:15px;margin-top:0;margin-bottom:28px;}
+.ui-datepicker table thead th{padding-top:0;padding-left:0;padding-right:0;padding-bottom:2px;color:#bbb;font-family:BMWType_Bold,Arial,sans-serif;font-size:13px;font-weight:normal;text-align:center;width:24px;border:2px solid white;}
+.ui-datepicker table thead th.ui-datepicker-week-col{text-align:left;width:29px;border:2px solid white;}
+.ui-datepicker td.ui-datepicker-week-col{background-color:#fff;text-align:left;width:29px;color:#bbb;font-family:BMWType_Bold,Arial,sans-serif;font-weight:normal;font-size:13px;}
+.ui-datepicker td.ui-datepicker-current-day,.ui-datepicker td.ui-datepicker-current-day .ui-state-default{background-color:#1c69d4;}
+.ui-datepicker td.ui-datepicker-current-day a:hover,.ui-datepicker td.ui-datepicker-current-day .ui-state-hover{color:#fff;}
+.ui-datepicker td.ui-datepicker-unselectable{background-color:#e6e6e6;}
+.ui-datepicker td{border:2px solid white;text-align:center;padding:0;width:24px;height:24px;}
+.ui-datepicker td .ui-state-default{background-color:#bbb;}
+.ui-datepicker td span,.ui-datepicker td a{display:block;padding-top:3px;padding-bottom:5px;padding-left:0;padding-right:0;color:#fff;text-decoration:none;text-align:center;font-size:13px;font-family:BMWType_Bold,Arial,sans-serif;font-weight:normal;width:100%;}
+.ui-datepicker td a:hover,.ui-datepicker td .ui-state-hover{color:#1c69d4;background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/common/css/jquery_ui/bmw/css_generic_global/bluehover.png.resource.1450861917957.png');background-position:center bottom;background-repeat:no-repeat;}
+.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{background:none repeat scroll 0 0 transparent;}
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{background:none repeat scroll 0 0 transparent;border:0 none;color:#fff;font-family:BMWType_Bold,Arial,sans-serif;font-weight:normal;}
+.headlineNormal,.headline h1,.headlineh1,h1{color:#262626;font-family:Arial,SimHei;vertical-align:top;}
+.brand-bmwi .headlineSizable .headlineSizableLarge,.brand-bmw .headlineSizable .headlineSizableLarge,.headlineSizable .headlineSizableLarge,h1.headline,.headline h1,.headlineh1,.headlineh1Mixed,h1{letter-spacing:.24px;font-size:32px;line-height:38px;padding-bottom:3px;margin-bottom:-3px;text-align:left;}
+.headlineh1Mixed,.headline h1.headlineh1Mixed{line-height:38px;letter-spacing:0;}
+.headlineWhite{color:#fff!important;}
+.headlineDarkGrey{color:#262626!important;}
+.coreForm .headlineDarkGrey{letter-spacing:0;}
+.brand-bmwi .headlineSizable .headlineSizableMedium,.brand-bmw .headlineSizable .headlineSizableMedium,.headlineSizable .headlineSizableMedium,h2.headline,.headline h2,.headlineh2,.headlineh2Mixed,h2{font-family:Arial,SimHei;font-size:22px;color:#262626;overflow:hidden;text-align:left;vertical-align:top;line-height:26px;padding-bottom:3px;margin-bottom:-3px;letter-spacing:0;}
+.headlineh2Mixed{line-height:26px;letter-spacing:0;}
+.brand-bmwi .headlineSizable .headlineSizableSmall,.brand-bmw .headlineSizable .headlineSizableSmall,.headlineSizable .headlineSizableSmall,h3.headline,.headline h3,.headlineh3,h3,.headlineh3Mixed,.brand-bmw h3.headline,.brand-bmw .headline h3,.brand-bmw .headlineh3,.brand-bmwi .brand-bmw .headlineh3,.brand-bmw h3,.brand-bmw .headlineh3Mixed{font-family:Arial,SimHei;font-size:17px;color:#262626;overflow:hidden;text-align:left;vertical-align:top;line-height:20px;padding-bottom:4px;margin-bottom:-3px;letter-spacing:0;}
+.headlineh3Mixed,.brand-bmw .headlineh3Mixed{line-height:20px;letter-spacing:0;}
+.brand-bmwi .headlineSizable .headlineSizableSmall,.brand-bmwi h3.headline,.brand-bmwi .headline h3,.brand-bmw .brand-bmwi .headlineh3,.brand-bmwi .headlineh3,.brand-bmwi h3,.brand-bmwi .headlineh3Mixed{font-size:22px;line-height:22px;}
+.brand-bmwi .headlineh3Mixed{line-height:26px;}
+.brand-bmwi .headlineSizable .headlineSizableVerySmall,.brand-bmw .headlineSizable .headlineSizableVerySmall,.headlineSizable .headlineSizableVerySmall,h4.headline,.headline h4,.headlineh4,h4,.headlineh4Mixed{font-family:Arial,SimHei;font-size:13px;line-height:16px;color:#262626;overflow:hidden;text-align:left;vertical-align:top;padding-bottom:2px;margin-bottom:-2px;letter-spacing:0;}
+.headlineh4Mixed{line-height:16px;letter-spacing:0;}
+.uppercase{text-transform:uppercase;}
+h4.uppercase{line-height:13px;}
+.brand-bmwi .headlineNormal,.brand-bmwi .headline h1,.brand-bmwi .headlineh1,.brand-bmwi h1,.brand-bmwi .headlineSizable .headlineSizableMedium,.brand-bmwi h2.headline,.brand-bmwi .headline h2,.brand-bmwi .headlineh2,.brand-bmwi h2,.brand-bmwi .headlineh2Mixed,.brand-bmwi .headlineSizable .headlineSizableSmall,.brand-bmwi h3.headline,.brand-bmwi .headline h3,.brand-bmwi .headlineh3,.brand-bmwi h3,.brand-bmwi .headlineh3Mixed{font-family:Arial,SimHei;}
+.brand-bmw .headlineNormal,.brand-bmw .headline h1,.brand-bmw .headlineh1,.brand-bmw h1,.brand-bmw .headlineSizable .headlineSizableMedium,.brand-bmw h2.headline,.brand-bmw .headline h2,.brand-bmw .headlineh2,.brand-bmw h2,.brand-bmw .headlineh2Mixed,.brand-bmw .headlineSizable .headlineSizableSmall,.brand-bmw h3.headline,.brand-bmw .headline h3,.brand-bmw .headlineh3,.brand-bmw h3,.brand-bmw .headlineh3Mixed,.brand-bmw .headlineSizable .headlineSizableVerySmall,.brand-bmw h4.headline,.brand-bmw .headline h4,.brand-bmw .headlineh4,.brand-bmw h4,.brand-bmw .headlineh4Mixed,.brand-bmwi .brand-bmw .headlineNormal,.brand-bmwi .brand-bmw .headline h1,.brand-bmwi .brand-bmw .headlineh1,.brand-bmwi .brand-bmw h1,.brand-bmwi .brand-bmw .headlineSizable .headlineSizableMedium,.brand-bmwi .brand-bmw h2.headline,.brand-bmwi .brand-bmw .headline h2,.brand-bmwi .brand-bmw .headlineh2,.brand-bmwi .brand-bmw h2,.brand-bmwi .brand-bmw .headlineh2Mixed,.brand-bmwi .brand-bmw .headlineSizable .headlineSizableSmall,.brand-bmwi .brand-bmw h3.headline,.brand-bmwi .brand-bmw .headline h3,.brand-bmwi .brand-bmw .headlineh3,.brand-bmwi .brand-bmw h3,.brand-bmwi .brand-bmw .headlineh3Mixed,.brand-bmwi .brand-bmw .headlineSizable .headlineSizableVerySmall,.brand-bmwi .brand-bmw h4.headline,.brand-bmwi .brand-bmw .headline h4,.brand-bmwi .brand-bmw .headlineh4,.brand-bmwi .brand-bmw h4,.brand-bmwi .brand-bmw .headlineh4Mixed{font-family:Arial,SimHei;}
+.brand-bmwi .headlineNormal,.brand-bmwi .headline h1,.brand-bmwi .headlineh1,.brand-bmwi h1,.brand-bmwi .headlineSizable .headlineSizableMedium,.brand-bmwi h2.headline,.brand-bmwi .headline h2,.brand-bmwi .headlineh2,.brand-bmwi h2,.brand-bmwi .headlineh2Mixed,.brand-bmwi .headlineSizable .headlineSizableSmall,.brand-bmwi h3.headline,.brand-bmwi .headline h3,.brand-bmwi .headlineh3,.brand-bmwi h3,.brand-bmwi .headlineh3Mixed,.glassPaneLayer.brand-bmwi .headlineNormal,.glassPaneLayer.brand-bmwi .headline h1,.glassPaneLayer.brand-bmwi .headlineh1,.glassPaneLayer.brand-bmwi h1,.glassPaneLayer.brand-bmwi .headlineSizable .headlineSizableMedium,.glassPaneLayer.brand-bmwi h2.headline,.glassPaneLayer.brand-bmwi .headline h2,.glassPaneLayer.brand-bmwi .headlineh2,.glassPaneLayer.brand-bmwi h2,.glassPaneLayer.brand-bmwi .headlineh2Mixed,.glassPaneLayer.brand-bmwi .headlineSizable .headlineSizableSmall,.glassPaneLayer.brand-bmwi h3.headline,.glassPaneLayer.brand-bmwi .headline h3,.glassPaneLayer.brand-bmwi .headlineh3,.glassPaneLayer.brand-bmwi h3,.glassPaneLayer.brand-bmwi .headlineh3Mixed{font-family:Arial,SimHei;}
+.intro .introBasicLayer hgroup{margin-bottom:30px;}
+.baseIconSizeSmall{width:12px;height:12px;}
+.baseIconSizeMedium{width:18px;height:18px;}
+.baseIconSizeBig{width:24px;height:24px;}
+.baseIconSizeXL{width:36px;height:36px;}
+.baseIconSprite{cursor:pointer;background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/icons.png.resource.1450861918234.png');}
+.iconHover{cursor:pointer;}
+.spriteIconInfoSmall{background-position:0 0;}
+.spriteIconInfoSmall:HOVER,.iconHover:HOVER .spriteIconInfoSmall{background-position:0 -30px;}
+.spriteIconInfoMedium{background-position:0 -60px;}
+.spriteIconInfoMedium:HOVER,.iconHover:HOVER .spriteIconInfoMedium{background-position:0 -90px;}
+.spriteIconInfoBig{background-position:0 -120px;}
+.spriteIconInfoBig:HOVER,.iconHover:HOVER .spriteIconInfoBig{background-position:0 -150px;}
+.spriteIconPrintSmall{background-position:-90px 0;}
+.spriteIconPrintSmall:HOVER,.iconHover:HOVER .spriteIconPrintSmall{background-position:-90px -30px;}
+.spriteIconPrintMedium{background-position:-90px -60px;}
+.spriteIconPrintMedium:HOVER,.iconHover:HOVER .spriteIconPrintMedium{background-position:-90px -90px;}
+.spriteIconPrintBig{background-position:-90px -120px;}
+.spriteIconPrintBig:HOVER,.iconHover:HOVER .spriteIconPrintBig{background-position:-90px -150px;}
+.spriteIconEditSmall{background-position:-1110px 0;}
+.spriteIconEditSmall:HOVER,.iconHover:HOVER .spriteIconEditSmall{background-position:-1110px -30px;}
+.spriteIconEditMedium{background-position:-1110px -60px;}
+.spriteIconEditMedium:HOVER,.iconHover:HOVER .spriteIconEditMedium{background-position:-1110px -90px;}
+.spriteIconEditBig{background-position:-1110px -120px;}
+.spriteIconEditBig:HOVER,.iconHover:HOVER .spriteIconEditBig{background-position:-1110px -150px;}
+.spriteIconExteriorRearSmall{background-position:-120px 0;}
+.spriteIconExteriorRearSmall:HOVER,.iconHover:HOVER .spriteIconExteriorRearSmall{background-position:-120px -30px;}
+.spriteIconExteriorRearMedium{background-position:-120px -60px;}
+.spriteIconExteriorRearMedium:HOVER,.iconHover:HOVER .spriteIconExteriorRearMedium{background-position:-120px -90px;}
+.spriteIconExteriorRearBig{background-position:-120px -120px;}
+.spriteIconExteriorRearBig:HOVER,.iconHover:HOVER .spriteIconExteriorRearBig{background-position:-120px -150px;}
+.spriteIconToolboxSmall{background-position:-150px 0;}
+.spriteIconToolboxSmall:HOVER,.iconHover:HOVER .spriteIconToolboxSmall{background-position:-150px -30px;}
+.spriteIconToolboxMedium{background-position:-150px -60px;}
+.spriteIconToolboxMedium:HOVER,.iconHover:HOVER .spriteIconToolboxMedium{background-position:-150px -90px;}
+.spriteIconToolboxBig{background-position:-150px -120px;}
+.spriteIconToolboxBig:HOVER,.iconHover:HOVER .spriteIconToolboxBig{background-position:-150px -150px;}
+.spriteIconPlusSmall{background-position:-180px 0;}
+.spriteIconPlusSmall:HOVER,.iconHover:HOVER .spriteIconPlusSmall{background-position:-180px -30px;}
+.spriteIconPlusMedium{background-position:-180px -60px;}
+.spriteIconPlusMedium:HOVER,.iconHover:HOVER .spriteIconPlusMedium{background-position:-180px -90px;}
+.spriteIconPlusBig{background-position:-180px -120px;}
+.spriteIconPlusBig:HOVER,.iconHover:HOVER .spriteIconPlusBig{background-position:-180px -150px;}
+.spriteIconMinusSmall{background-position:-210px 0;}
+.spriteIconMinusSmall:HOVER,.iconHover:HOVER .spriteIconMinusSmall{background-position:-210px -30px;}
+.spriteIconMinusMedium{background-position:-210px -60px;}
+.spriteIconMinusMedium:HOVER,.iconHover:HOVER .spriteIconMinusMedium{background-position:-210px -90px;}
+.spriteIconMinusBig{background-position:-210px -120px;}
+.spriteIconMinusBig:HOVER,.iconHover:HOVER .spriteIconMinusBig{background-position:-210px -150px;}
+.spriteIconMagnifierMinusSmall{background-position:-270px 0;}
+.spriteIconMagnifierMinusSmall:HOVER,.iconHover:HOVER .spriteIconMagnifierMinusSmall{background-position:-270px -30px;}
+.spriteIconMagnifierMinusMedium{background-position:-270px -60px;}
+.spriteIconMagnifierMinusMedium:HOVER,.iconHover:HOVER .spriteIconMagnifierMinusMedium{background-position:-270px -90px;}
+.spriteIconMagnifierMinusBig{background-position:-270px -120px;}
+.spriteIconMagnifierMinusBig:HOVER,.iconHover:HOVER .spriteIconMagnifierMinusBig{background-position:-270px -150px;}
+.spriteIconMagnifierPlusSmall{background-position:-300px 0;}
+.spriteIconMagnifierPlusSmall:HOVER,.iconHover:HOVER .spriteIconMagnifierPlusSmall{background-position:-300px -30px;}
+.spriteIconMagnifierPlusMedium{background-position:-300px -60px;}
+.spriteIconMagnifierPlusMedium:HOVER,.iconHover:HOVER .spriteIconMagnifierPlusMedium{background-position:-300px -90px;}
+.spriteIconMagnifierPlusBig{background-position:-300px -120px;}
+.spriteIconMagnifierPlusBig:HOVER,.iconHover:HOVER .spriteIconMagnifierPlusBig{background-position:-300px -150px;}
+.spriteIconDownloadSmall{background-position:-330px 0;}
+.spriteIconDownloadSmall:HOVER,.iconHover:HOVER .spriteIconDownloadSmall{background-position:-330px -30px;}
+.spriteIconDownloadMedium{background-position:-330px -60px;}
+.spriteIconDownloadMedium:HOVER,.iconHover:HOVER .spriteIconDownloadMedium{background-position:-330px -90px;}
+.spriteIconDownloadBig{background-position:-330px -120px;}
+.spriteIconDownloadBig:HOVER,.iconHover:HOVER .spriteIconDownloadBig{background-position:-330px -150px;}
+.spriteIconShareSmall{background-position:-420px 0;}
+.spriteIconShareSmall:HOVER,.iconHover:HOVER .spriteIconShareSmall{background-position:-420px -30px;}
+.spriteIconShareMedium{background-position:-420px -60px;}
+.spriteIconShareMedium:HOVER,.iconHover:HOVER .spriteIconShareMedium{background-position:-420px -90px;}
+.spriteIconShareBig{background-position:-420px -120px;}
+.spriteIconShareBig:HOVER,.iconHover:HOVER .spriteIconShareBig{background-position:-420px -150px;}
+.spriteIconDeleteSmall:HOVER,.iconHover:HOVER .spriteIconDeleteSmall{background-position:-450px -30px;}
+.spriteIconDeleteMedium{background-position:-450px -60px;}
+.spriteIconDeleteMedium:HOVER,.iconHover:HOVER .spriteIconDeleteMedium{background-position:-450px -90px;}
+.spriteIconDeleteBig{background-position:-450px -120px;}
+.spriteIconDeleteBig:HOVER,.iconHover:HOVER .spriteIconDeleteBig{background-position:-450px -150px;}
+.spriteIconInteriorSmall:HOVER,.iconHover:HOVER .spriteIconInteriorSmall{background-position:-480px -30px;}
+.spriteIconInteriorMedium{background-position:-480px -60px;}
+.spriteIconInteriorMedium:HOVER,.iconHover:HOVER .spriteIconInteriorMedium{background-position:-480px -90px;}
+.spriteIconInteriorBig{background-position:-480px -120px;}
+.spriteIconInteriorBig:HOVER,.iconHover:HOVER .spriteIconInteriorBig{background-position:-480px -150px;}
+.spriteIconExteriorSmall:HOVER,.iconHover:HOVER .spriteIconExteriorSmall{background-position:-510px -30px;}
+.spriteIconExteriorMedium{background-position:-510px -60px;}
+.spriteIconExteriorMedium:HOVER,.iconHover:HOVER .spriteIconExteriorMedium{background-position:-510px -90px;}
+.spriteIconExteriorBig{background-position:-510px -120px;}
+.spriteIconExteriorBig:HOVER,.iconHover:HOVER .spriteIconExteriorBig{background-position:-510px -150px;}
+.spriteIconControlNextSmall{background-position:-690px 0;}
+.spriteIconControlNextSmall:HOVER,.iconHover:HOVER .spriteIconControlNextSmall{background-position:-690px -30px;}
+.spriteIconControlNextMedium{background-position:-690px -60px;}
+.spriteIconControlNextMedium:HOVER,.iconHover:HOVER .spriteIconControlNextMedium{background-position:-690px -90px;}
+.spriteIconControlNextBig{background-position:-690px -120px;}
+.spriteIconControlNextBig:HOVER,.iconHover:HOVER .spriteIconControlNextBig{background-position:-690px -150px;}
+.spriteIconControlPauseSmall{background-position:-660px 0;}
+.spriteIconControlPauseSmall:HOVER,.iconHover:HOVER .spriteIconControlPauseSmall{background-position:-660px -30px;}
+.spriteIconControlPauseMedium{background-position:-660px -60px;}
+.spriteIconControlPauseMedium:HOVER,.iconHover:HOVER .spriteIconControlPauseMedium{background-position:-660px -90px;}
+.spriteIconControlPauseBig{background-position:-660px -120px;}
+.spriteIconControlPauseBig:HOVER,.iconHover:HOVER .spriteIconControlPauseBig{background-position:-660px -150px;}
+.spriteIconControlPlaySmall{background-position:-630px 0;}
+.spriteIconControlPlaySmall:HOVER,.iconHover:HOVER .spriteIconControlPlaySmall{background-position:-630px -30px;}
+.spriteIconControlPlayMedium{background-position:-630px -60px;}
+.spriteIconControlPlayMedium:HOVER,.iconHover:HOVER .spriteIconControlPlayMedium{background-position:-630px -90px;}
+.spriteIconControlPlayBig{background-position:-630px -120px;}
+.spriteIconControlPlayBig:HOVER,.iconHover:HOVER .spriteIconControlPlayBig{background-position:-630px -150px;}
+.spriteIconControlPlayXL{background-position:-180px -180px;}
+.iconHover:HOVER .spriteIconControlPlayXL{background-position:-180px -240px;}
+.spriteIconControlPreviousSmall{background-position:-600px 0;}
+.spriteIconControlPreviousSmall:HOVER,.iconHover:HOVER .spriteIconControlPreviousSmall{background-position:-600px -30px;}
+.spriteIconControlPreviousMedium{background-position:-600px -60px;}
+.spriteIconControlPreviousMedium:HOVER,.iconHover:HOVER .spriteIconControlPreviousMedium{background-position:-600px -90px;}
+.spriteIconControlPreviousBig{background-position:-600px -120px;}
+.spriteIconControlPreviousBig:HOVER,.iconHover:HOVER .spriteIconControlPreviousBig{background-position:-600px -150px;}
+.spriteIconJumpMarkDownSmall{background-position:-720px 0;}
+.spriteIconJumpMarkDownSmall:HOVER,.iconHover:HOVER .spriteIconJumpMarkDownSmall{background-position:-720px -30px;}
+.spriteIconJumpMarkUpSmall{background-position:-750px 0;}
+.spriteIconJumpMarkUpSmall:HOVER,.iconHover:HOVER .spriteIconJumpMarkUpSmall{background-position:-750px -30px;}
+.spriteIconControlReverseSmall{background-position:-810px 0;}
+.spriteIconControlReverseSmall:HOVER,.iconHover:HOVER .spriteIconControlPauseSmall{background-position:-810px -30px;}
+.spriteIconControlReverseMedium{background-position:-810px -60px;}
+.spriteIconControlReverseMedium:HOVER,.iconHover:HOVER .spriteIconControlPauseMedium{background-position:-810px -90px;}
+.spriteIconControlReverseBig{background-position:-810px -120px;}
+.spriteIconControlReverseBig:HOVER,.iconHover:HOVER .spriteIconControlPauseBig{background-position:-810px -150px;}
+.spriteIconCloseSmall{background-position:-570px 0;}
+.spriteIconCloseSmall:HOVER,.iconHover:HOVER .spriteIconCloseSmall{background-position:-570px -30px;}
+.spriteIconCloseMedium{background-position:-570px -60px;}
+.spriteIconCloseMedium:HOVER,.iconHover:HOVER .spriteIconCloseMedium{background-position:-570px -90px;}
+.spriteIconCloseBig{background-position:-570px -120px;}
+.spriteIconCloseBig:HOVER,.iconHover:HOVER .spriteIconCloseBig{background-position:-570px -150px;}
+.spriteIconControlForwardSmall{background-position:-870px 0;}
+.spriteIconControlForwardSmall:HOVER{background-position:-870px -30px;}
+.spriteIconControlForwardMedium{background-position:-870px -60px;}
+.spriteIconControlForwardMedium:HOVER{background-position:-870px -90px;}
+.spriteIconControlForwardBig{background-position:-870px -120px;}
+.spriteIconControlForwardBig:HOVER{background-position:-870px -150px;}
+.spriteIconCarMedium{background-position:-930px -60px;}
+.spriteIconCarMedium:HOVER,.iconHover:HOVER .spriteIconCarMedium{background-position:-930px -90px;}
+.spriteIconBookmarkSmall{background-position:-1020px 0;}
+.spriteIconBookmarkSmall:HOVER{background-position:-1020px -30px;}
+.spriteIconBookmarkMedium{background-position:-1020px -60px;}
+.spriteIconBookmarkMedium:HOVER{background-position:-1020px -90px;}
+.spriteIconBookmarkBig{background-position:-1020px -120px;}
+.spriteIconBookmarkBig:HOVER{background-position:-1020px -150px;}
+.spriteIconPdfBig{background-position:-780px -120px;}
+.spriteIconPdfBig:HOVER{background-position:-780px -150px;}
+.spriteIconSwitchConvertibleToOpenBig{background-position:-900px -120px;}
+.spriteIconSwitchConvertibleToOpenBig:HOVER,.iconHover:HOVER .spriteIconSwitchConvertibleToOpenBig{background-position:-900px -150px;}
+.spriteIconSwitchConvertibleToClosedBig{background-position:-930px -120px;}
+.spriteIconSwitchConvertibleToClosedBig:HOVER,.iconHover:HOVER .spriteIconSwitchConvertibleToClosedBig{background-position:-930px -150px;}
+.spriteIconSwitchDoorToOpenBig{background-position:-1050px -120px;}
+.spriteIconSwitchDoorToOpenBig:HOVER,.iconHover:HOVER .spriteIconSwitchDoorToOpenBig{background-position:-1050px -150px;}
+.spriteIconSwitchDoorToClosedBig{background-position:-1080px -120px;}
+.spriteIconSwitchDoorToClosedBig:HOVER,.iconHover:HOVER .spriteIconSwitchDoorToClosedBig{background-position:-1080px -150px;}
+.spriteIconSwitchToDayViewBig{background-position:-960px -120px;}
+.spriteIconSwitchToDayViewBig:HOVER,.iconHover:HOVER .spriteIconSwitchToDayViewBig{background-position:-960px -150px;}
+.spriteIconSwitchToNightViewBig{background-position:-990px -120px;}
+.spriteIconSwitchToNightViewBig:HOVER,.iconHover:HOVER .spriteIconSwitchToNightViewBig{background-position:-990px -150px;}
+.spriteIconLoupe{background-position:-274px -362px;}
+.spriteIconArrowToggleUpSmall{background-position:-901px 2px;}
+.spriteIconArrowToggleUpSmall:hover{background-position:-901px -28px;}
+.spriteIconArrowToggleBottomSmall{background-position:-931px 1px;}
+.spriteIconArrowToggleBottomSmall:hover{background-position:-931px -29px;}
+.baseLabelSprite{cursor:default;background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/labels.png.resource.1450861918235.png');}
+.baseLabelSpriteImg{background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/labels.png.resource.1450861918235.png');}
+.spriteLabelFavoritGrey12{background-position:-38px -15px;height:12px;width:12px;}
+.spriteLabelFavoritGrey18{background-position:-38px -37px;height:18px;width:18px;}
+.spriteLabelFavoritGrey24{background-position:-38px -65px;height:24px;width:24px;}
+.spriteLabelFavoritGrey48{background-position:-38px -99px;height:48px;width:48px;}
+.spriteLabelFavoritWhite12{background-position:-96px -15px;height:12px;width:12px;}
+.spriteLabelFavoritWhite18{background-position:-96px -37px;height:18px;width:18px;}
+.spriteLabelFavoritWhite24{background-position:-96px -65px;height:24px;width:24px;}
+.spriteLabelFavoritWhite48{background-position:-96px -99px;height:48px;width:48px;}
+.spriteLabelWarningGrey12{background-position:-154px -15px;height:12px;width:12px;}
+.spriteLabelWarningGrey18{background-position:-154px -37px;height:18px;width:18px;}
+.spriteLabelWarningGrey24{background-position:-154px -65px;height:24px;width:24px;}
+.spriteLabelWarningGrey48{background-position:-154px -99px;height:48px;width:48px;}
+.spriteLabelWarningRed12{background-position:-212px -15px;height:12px;width:12px;}
+.spriteLabelWarningRed24{background-position:-212px -65px;height:24px;width:24px;}
+.spriteLabelWarningRed48{background-position:-212px -99px;height:48px;width:48px;}
+.spriteLabelWarningWhite12{background-position:-502px -15px;height:12px;width:12px;}
+.spriteLabelWarningWhite24{background-position:-502px -65px;height:24px;width:24px;}
+.spriteLabelWarningWhite48{background-position:-502px -99px;height:48px;width:48px;}
+.spriteLabelCheckedGrey12{background-position:-270px -15px;height:12px;width:12px;}
+.spriteLabelCheckedGrey24{background-position:-270px -65px;height:24px;width:24px;}
+.spriteLabelCheckedGrey48{background-position:-270px -99px;height:48px;width:48px;}
+.spriteLabelCheckedGreen12{background-position:-328px -15px;height:12px;width:12px;}
+.spriteLabelCheckedGreen24{background-position:-328px -65px;height:24px;width:24px;}
+.spriteLabelCheckedGreen48{background-position:-328px -99px;height:48px;width:48px;}
+.spriteLabelSpanners48{background-position:-444px -99px;height:48px;width:48px;}
+.spriteLabelMinusGrey12{background-position:-386px -15px;height:12px;width:12px;}
+.spriteLabelHintGrey34{background-position:-38px -160px;height:34px;width:34px;}
+.link12px,.link13px,.link14px,.link16px,.link17px,.link22px,.link32px,.linkArrow13px,.linkArrow16px,.link12pxActive,.link13pxActive,.link16pxActive,.link16pxActive,.link22pxActive,.linkArrow13pxActive,.linkArrow13pxWhiteActive,.linkArrow16pxActive,.linkArrow13pxInactive,.link13pxInline{font-family:Arial,SimSun;color:#666;text-align:left;}
+.linkArrow13pxInactive{font-size:13px;}
+.link12pxWhite,.link13pxWhite,.link16pxWhite,.link17pxWhite,.link21pxWhite,.link22pxWhite,.link23pxWhite,.linkArrow13pxWhite,.linkArrow16pxWhite,.link12pxActiveWhite,.link13pxActiveWhite,.link16pxActiveWhite,.link17pxActiveWhite,.link22pxActiveWhite,.link23pxActiveWhite,.linkArrow13pxActiveWhite,.linkArrow16pxActiveWhite{font-family:Arial,SimHei;color:#fff;text-align:left;}
+.linkArrow13pxWhite,.linkArrow13pxActive,.linkArrow13px.linkWhite{padding-left:9px;background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/icons.png.resource.1450861918234.png');background-repeat:no-repeat;background-position:-1020px -197px;display:block;}
+.link12px,.link12pxActive,.link12pxWhite,.link12pxActiveWhite{font-size:12px;line-height:15px;}
+.link13px,.linkArrow13px,.link13pxActive,.linkArrow13pxActive,.link13pxWhite,.linkArrow13pxWhite,.link13pxActiveWhite,.linkArrow13pxActiveWhite,.linkArrow13pxInactive,.link13pxInline{font-size:13px;line-height:15px;}
+.link13pxInline{text-decoration:underline;}
+.link14px{font-size:14px;line-height:15px;}
+.link16px,.linkArrow16px,.link16pxActive,.linkArrow16pxActive,.link16pxWhite,.linkArrow16pxWhite,.link16pxActiveWhite,.linkArrow16pxActiveWhite{font-size:16px;line-height:19px;}
+.link17px,.link17pxWhite,.link17pxActive,.link17pxActiveWhite{font-size:17px;line-height:20px;}
+.link22px,.link22pxActive,.link22pxWhite,.link22pxActiveWhite{font-size:22px;line-height:25px;}
+.link21pxWhite{font-size:21px;line-height:24px;}
+.link23px,.link23pxActive,.link23pxWhite,.link23pxActiveWhite{font-size:23px;line-height:26px;}
+.link32px{font-size:32px;line-height:35px;}
+.linkArrow13px,.linkArrow13pxActive,.linkArrow13pxInactive{padding-left:9px;background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/icons.png.resource.1450861918234.png');background-repeat:no-repeat;background-position:-990px -228px;display:block;}
+.linkArrow13pxActive{background-position:-960px -258px;}
+.linkArrow13pxInactive{color:#BBB;cursor:text;background-position:-810px -407px;}
+.linkArrow13px:hover{padding-left:9px;background-repeat:no-repeat;background-position:-960px -258px;}
+.link12px:hover,.link12px:active,.link13px:hover,.link13px:active,.link13pxActive,.link13pxWhite:hover,.link13pxWhite:active,.link13pxActiveWhite,.linkArrow13px:hover,.linkArrow13px:active,.linkArrow13pxActive,.linkArrow13pxWhite:hover,.linkArrow13pxWhite:active,.link14px:hover,.link14px:active,.link14pxActive,.link16px:hover,.link16px:active,.linkArrow16px:hover,.linkArrow16px:active,.link16pxActive,.linkArrow16pxActive,.linkArrow16pxActiveWhite,.link16pxWhite:hover,.link16pxActiveWhite,.link16pxWhite:active,.link17px:hover,.link17px:active,.link17pxActive,.link17pxWhite:hover,.link17pxActiveWhite,.link22px:hover,.link22px:active,.link22pxActive,.link22pxWhite:hover,.link22pxWhite:active,.link22pxActiveWhite,.link23px:hover,.link23px:active,.link23pxActive,.link23pxActiveWhite,.link23pxWhite:hover,.link23pxWhite:active,.link32px:hover,.link32px:active,.linkActive,.link13pxInline:hover,.link13pxInline:active{color:#1C69D4;}
+.linkArrow13pxWhite:hover{padding-left:9px;background-repeat:no-repeat;background-position:-960px -257px;}
+.linkCopyText{text-decoration:underline;color:#262626;}
+.linkDownloadButton{float:left;margin-right:6px;margin-top:-2px;}
+.visualIdentifierHolder{display:none;}
+.enableVI .visualIdentifierHolder{display:block;}
+.viShadowContainer{display:none;}
+.visualIdentifierHolder ul li,.visualIdentifierHolder a{display:none;height:auto;}
+.visualIdentifierContent{background:#fff;padding:10px;font-weight:bold;font-size:12px;}
+.visualIdentifierContainer{margin:0 0 5px 5px;display:table;overflow:hidden;position:absolute;top:0;right:0;z-index:1001;}
+.visualIdentifierHolder{position:relative;}
+.viShadow{background:none repeat scroll 0 0 #fff;height:5px;}
+.dashboardTeaserVI{position:relative;overflow:hidden;}
+.dashboardTeaserVI .visualIdentifierContainer{position:absolute;bottom:-5px;right:0;}
+.dashboardTeaserVI .visualIdentifierHolder{z-index:1002;position:absolute;bottom:53px;right:0;}
+.dashboardTeaserVI .visualIdentifierContent{margin:5px 0 0 5px;padding:0;max-width:745px;height:48px;}
+.dashboardTeaserVI .visualIdentifierContent ul li{display:table-cell;padding:12px 0 0 30px;white-space:nowrap;vertical-align:top;}
+.dashboardTeaserVI .visualIdentifierContent ul li h3{padding-bottom:2px;margin-right:20px;}
+.dashboardTeaserVI .visualIdentifierContent ul li h4{padding-top:3px;}
+.dashboardTeaserVI .visualIdentifierHolder ul li.stageVI{display:table-cell;padding:0;}
+.dashboardTeaserVI .visualIdentifierHolder ul li a{display:inline;margin-top:6px;}
+.dashboardTeaserVI .dashboardTeaserVI{height:auto;}
+.dashboardTeaserVI.enableVI .viShadowContainer{position:absolute;display:block;right:0;width:1270px;overflow:hidden;height:10px;bottom:-5px;z-index:1001;}
+.dashboardTeaserVI .viShadow{margin:5px 0 0;}
+.teaserVI{position:relative;}
+.teaserVI .visualIdentifierContent{margin:0 0 5px 5px;max-width:170px;}
+.teaserVI h3{color:#262626;font-family:BMWType_Bold,Arial,sans-serif;font-size:13px;letter-spacing:0;line-height:16px;margin-bottom:-2px;overflow:hidden;padding-bottom:2px;text-align:left;vertical-align:top;}
+.impulseMessageDashboardModuleVI{position:relative;height:250px;}
+.impulseMessageDashboardModuleVI.enableVI .visualIdentifierContent{margin:0 0 5px 5px;max-width:260px;}
+.impulseMessageDashboardModuleVI.enableVI .isInitialized{margin-top:50px;}
+.impulseMessageDashboardModuleVI.enableVI .viShadowContainer{position:relative;top:-5px;display:block;}
+.dashboardModuleVI{position:relative;height:250px;}
+.dashboardModuleVI .visualIdentifierHolder{position:relative;top:10px;}
+.dashboardModuleVI.enableVI .visualIdentifierContent{margin:0 0 5px 5px;max-width:260px;}
+.dashboardModuleVI.enableVI .visualIdentifierContent,.impulseMessageDashboardModuleVI.enableVI .visualIdentifierContent{padding:12px 14px;}
+.dashboardModuleVI.enableVI .isInitialized{margin-top:50px;}
+.dashboardModuleVI.enableVI .viShadowContainer{position:relative;top:5px;display:block;z-index:1000;overflow:hidden;height:10px;}
+#carConfigureLink,#carCompareLink{margin-bottom:10px;}
+#car{position:relative;margin-top:40px;margin-right:10px;}
+.myconfigPrimaryFlag{background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/labels.png.resource.1450861918235.png');}
+#myconfigPrimaryFlag{left:335px;top:150px;z-index:1;position:absolute;}
+#carConfigure{width:180px;position:absolute;top:185px;}
+.carPictureWrapper{background-color:#FFF;padding:15px 10px 10px 20px;width:auto;height:auto;}
+#carPictureHeader{height:30px;position:absolute;width:890px;}
+.carPictureContent{margin-top:10px;}
+#carPicturePrint{float:left;margin-right:10px;}
+#carPictureLastChangedDate{float:left;font-size:13px;line-height:16px;color:#262626;text-align:left;vertical-align:middle;white-space:normal;padding-top:2px;font-weight:normal;}
+#carPictureControl{float:right;}
+#carPictureControl a.linkArrow13px{float:left;}
+#carPictureModelInfo{width:300px;z-index:10;position:absolute;top:45px;}
+#carPictureModelInfo a.linkArrow13px{margin-top:7px;}
+.carPictureModel{z-index:0;float:right;width:677px;}
+.carPictureHeadline,.carPictureSubHeadline{font-size:22px;line-height:22px;font-weight:bold;font-family:BMWType_Bold;color:#262626;text-align:left;vertical-align:top;text-transform:uppercase;white-space:normal;}
+.carPictureHeadline{text-transform:none;margin-top:-4px;}
+.carPictureSubHeadline{font-size:13px;line-height:13px;margin-top:7px;text-transform:none;}
+.carPictureFont,.carPictureFontBold{font-size:13px;line-height:16px;color:#262626;text-align:left;vertical-align:middle;white-space:normal;padding-top:2px;}
+#carPictureOverlay{position:absolute;top:300px;width:250px;right:10px;height:32px;z-index:20;}
+#carPictureOverlay .carPictureOverlayLeft{float:left;}
+#carPictureOverlay .carPictureOverlayRight{float:right;padding-top:10px;}
+.carPictureFont{margin-bottom:9px;height:65px;overflow:hidden;}
+.carPictureFont .text p{padding-bottom:0;}
+.carPictureFontBold{font-weight:bold;font-family:BMWType_Bold;}
+.myconfigLeft{background-color:#FFF;width:158px;float:left;padding:20px 40px 40px 20px;}
+.myconfigCampaignOffers{position:absolute;top:474px;left:523px;width:439px;height:363px;background-image:url('/etc/designs/bmwnext/apps/bmwnext/mybmw/myconfiguration/static/parComponents/themes/myconfigurations/overview/img_dummy_campaign.jpg.resource.1450861944456.jpg');}
+.myconfigExplore{position:absolute;top:867px;left:523px;width:439px;height:320px;background-image:url('/etc/designs/bmwnext/apps/bmwnext/mybmw/myconfiguration/static/parComponents/themes/myconfigurations/overview/img_dummy_explore.jpg.resource.1450861944455.jpg');}
+.myconfigNotepad{position:absolute;top:1217px;left:523px;width:439px;height:294px;background-image:url('/etc/designs/bmwnext/apps/bmwnext/mybmw/myconfiguration/static/parComponents/themes/myconfigurations/overview/img_dummy_notepad.jpg.resource.1450861944450.jpg');}
+.myconfigWhatsHot{position:absolute;top:1541px;left:523px;width:439px;height:294px;background-image:url('/etc/designs/bmwnext/apps/bmwnext/mybmw/myconfiguration/static/parComponents/themes/myconfigurations/overview/img_dummy_whatshot.jpg.resource.1450861944454.jpg');}
+.myconfigSnapshotBox{margin-bottom:30px;padding-bottom:8px;border-bottom:2px solid #E7E7E7;position:relative;}
+.myconfigSnapshotChange{float:right;margin-top:16px;}
+.myconfigMainRightCol .myconfigSnapshotBox{border-bottom:none;padding-bottom:0;}
+.myconfigSnapshotBox .myconfigSnapshotHeadline{margin-bottom:15px;}
+.myconfigSnapshotBox .myconfigSnapshotSubheadline{margin-bottom:11px;}
+.myconfigSnapshotHeadline{font-size:22px;font-weight:bold;font-family:BMWType_Bold;color:#262626;text-align:left;vertical-align:top;white-space:nowrap;margin-top:-7px;position:relative;}
+.myconfigSnapshotSubheadline{font-size:17px;font-weight:bold;font-family:BMWType_Bold;color:#262626;text-align:left;vertical-align:top;white-space:nowrap;margin-top:-5px;position:relative;}
+.myconfigSnapshotTable{width:100%;}
+.infoMoveToMyVehicles{float:left;margin:0 20px 0 6px;}
+.infoMyConfigDelete{float:left;margin:0 0 0 6px;}
+.myconfigSnapshotTable tr td{font-size:12px;line-height:16px;color:#262626;text-align:left;min-width:120px;vertical-align:bottom;}
+.myconfigSnapshotTable tr.normal td{font-weight:normal;}
+.myconfigSnapshotTable tr.high td{font-weight:bold;margin-top:0;padding-bottom:8px;}
+.myconfigSnapshotTextHighlighted{font-size:12px;font-weight:bold;color:#262626;text-align:left;line-height:22px;}
+.myconfigLeftSide{float:left;padding:20px 40px 40px 20px;width:158px;}
+.myconfigLeftSideBox{height:400px;}
+.myconfigHeadlineDiv{padding-left:40px;width:920px;height:94px;width:60%;float:left;}
+.myconfigHeadline{overflow:visible;margin-top:35px;padding-bottom:25px;}
+.myconfigRightSide{position:relative;}
+#configSelectorButton{width:auto;float:right;margin-top:0;}
+.myconfigCarpicture{background-color:#FFF;height:350px;position:relative;}
+.myconfigMainTop{width:100%;}
+.myconfigMainLeftCol{float:left;width:455px;margin-right:35px;margin-bottom:30px;margin-top:30px;}
+.myconfigMainRightCol{float:right;width:455px;margin-bottom:30px;margin-top:30px;}
+.myconfigMainRightColBox{margin-top:30px;background-color:#fff;}
+.myconfigSnapshot{background-color:#fff;padding:20px 20px 0;}
+.noConfig{background-color:white;text-align:center;height:350px;display:block;}
+.infoSetAsPrimary{float:left;}
+.myvehicleselector.gplContent{width:685px;margin-top:7px;}
+.myvehicleselector .gplContentFooter{border-top:0;}
+.myvehicleselectorHeader{padding-top:14px;}
+#myVehicleSelectDialogId .dialogComponent{padding-bottom:30px;}
+#myVehicleSelectDialogId .dialogComponentHeader{margin-bottom:30px;}
+#myvehicleSelectorPopupContent{background-color:#FFF;position:relative;margin-left:-15px;width:735px;}
+.myvehicleSelectorVehicleItem{overflow:hidden;display:block;margin-right:35px;position:relative;float:left;}
+.myvehicleSelectorTwoColumns .myvehicleSelectorVehicleItem{margin-right:55px;}
+.myvehicleSelectorOneColumns .myvehicleSelectorVehicleItem:first-child{margin-right:0;}
+.myvehicleselector #myvehicleSelectorThumbContainerContent_bmwi{margin-top:30px;}
+.myvehicleselector #myvehicleSelectorThumbContainerContent_bmwi .myvehicleSelectorOneColumns{margin-top:6px;}
+.myvehicleSelectorTwoColumns .myvehicleSelectorVehicleItem:first-child{margin-right:85px;}
+.myvehicleSelectorContent{position:relative;}
+.myvehicleSelectorThumb4inARow{width:210px;}
+.myvehicleSelectorOneColumns .myvehicleSelectorThumb4inARow{width:460px;}
+.myvehicleSelectorTwoColumns .myvehicleSelectorThumb4inARow{width:300px;}
+.myvehicleSelectorThumbnailDiv{display:block;height:117px;width:210px;}
+.myvehicleSelectorOneColumns .myvehicleSelectorThumbnailDiv{height:206px;width:460px;}
+.myvehicleSelectorTwoColumns .myvehicleSelectorThumbnailDiv{height:166px;width:300px;}
+.myVehicleSelectorRemoveButton{background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/icons.png.resource.1450861918234.png');display:block;position:absolute;top:105px;right:21px;width:18px;height:18px;background-repeat:no-repeat;}
+.selectedVehicle .myVehicleSelectorRemoveButton{top:107px;}
+.myvehicleSelectorOneColumns .myVehicleSelectorRemoveButton{top:215px;right:271px;}
+.myvehicleSelectorOneColumns .selectedVehicle .myVehicleSelectorRemoveButton{top:219px;}
+.myvehicleSelectorTwoColumns .myVehicleSelectorRemoveButton{top:136px;right:111px;}
+.myvehicleSelectorTwoColumns .selectedVehicle .myVehicleSelectorRemoveButton{top:140px;}
+.myvehicleSelectorThumb2inARow{border:1px solid blue;display:block;height:130px;width:180px;float:left;margin:13px;text-align:center;vertical-align:bottom;}
+.myvehicleSelectorHeadline{font-size:32px;line-height:32px;font-family:BMWType_Bold;color:#262626;margin-left:30px;}
+#myvehicleSortSelectorContainer .myvehicleSelectorSubHeadline{margin-right:6px;}
+.myvehicleSelectorSubHeadline{font-size:13px;color:#262626;text-transform:none;display:inline-block;}
+.myvehicleSelectorSubHeaderContainer #myvehicleCount{font-size:17px;}
+.myvehicleSelectorSubHeaderContainer #myvehicleEmptySlots{font-size:17px;}
+.myvehicleSelectorThumbHeadlineContainer{position:absolute;top:96px;left:15px;height:auto;width:170px;padding-left:10px;padding-top:10px;padding-bottom:10px;}
+.myvehicleSelectorOneColumns .myvehicleSelectorThumbHeadlineContainer{top:208px;}
+.myvehicleSelectorTwoColumns .myvehicleSelectorThumbHeadlineContainer{top:129px;}
+.myvehicleSelectorVehicleItemHover .myVehicleSelectorSelectIndicator,.myvehicleSelectorVehicleItemSelected .myVehicleSelectorSelectIndicator{display:block;}
+.myvehicleSelectorVehicleItemHover .myvehicleSelectorThumbnailDiv,.myvehicleSelectorVehicleItemSelected .myvehicleSelectorThumbnailDiv{top:-5px;}
+.myVehicleSelectorSelectIndicator{position:absolute;bottom:-4px;height:5px;width:180px;background-color:#1C69D4;left:15px;display:none;z-index:1;}
+.selectedVehicle .myVehicleSelectorSelectIndicator{display:block;}
+.myvehicleSelectorOneColumns .myVehicleSelectorAnimationWrapper.myVehicleIsInvalid{height:100px;margin-top:-96px;}
+.myvehicleSelectorOneColumns .myVehicleSelectorAnimationWrapper{margin-top:-27px;}
+.myvehicleSelectorTwoColumns .myVehicleSelectorAnimationWrapper{margin-top:-66px;}
+.myvehicleSelectorTwoColumns .myVehicleSelectorAnimationWrapper.myVehicleIsInvalid{height:75px;margin-top:-95px;}
+.myVehicleSelectorAnimationWrapper.myVehicleIsInvalid{height:70px;margin-top:-91px;}
+.myVehicleSelectorAnimationWrapper{height:30px;margin-left:15px;margin-top:-50px;overflow:hidden;position:relative;}
+.myVehicleSelectorSelect_ChooseButton{background-color:#1C69D4;display:none;height:5px;margin-top:25px;padding-left:15px;position:absolute;width:165px;}
+.myVehicleIsInvalid .myVehicleSelectorSelect_ChooseButton{margin-top:65px;}
+.myvehicleSelectorOneColumns .myVehicleIsInvalid .myVehicleSelectorSelect_ChooseButton{margin-top:95px;}
+.myvehicleSelectorTwoColumns .myVehicleIsInvalid .myVehicleSelectorSelect_ChooseButton{margin-top:70px;}
+.myvehicleSelectorOneColumns .myVehicleSelectorSelect_invalidVehicleText{padding-bottom:38px;}
+.myvehicleSelectorTwoColumns .myVehicleSelectorSelect_invalidVehicleText{padding-bottom:13px;}
+.myVehicleSelectorSelect_invalidVehicleText{display:none;font-weight:bold;width:180px;padding-bottom:8px;}
+.myVehicleSelectorSelect_DividerBar{background-color:white;bottom:0;height:22px;padding-top:5px;padding-left:10px;margin-top:2px;position:absolute;top:100px;width:180px;}
+.myvehicleSelectorOneColumns .myVehicleSelectorSelect_DividerBar{width:460px;}
+.myvehicleSelectorOneColumns .myVehicleIsInvalid .myVehicleSelectorSelect_DividerBar{height:100px;}
+.myvehicleSelectorTwoColumns .myVehicleSelectorSelect_DividerBar{width:300px;}
+.myvehicleSelectorTwoColumns .myVehicleIsInvalid .myVehicleSelectorSelect_DividerBar{height:75px;}
+.myVehicleIsInvalid .myVehicleSelectorSelect_DividerBar{height:70px;}
+.myvehicleSelectorThumbHeadline,.myvehicleSelectorThumbSubHeadline{font-size:13px;line-height:15px;color:#262626;text-align:left;vertical-align:top;position:relative;white-space:normal;max-height:30px;overflow:hidden;font-weight:normal;width:140px;}
+.myvehicleSelectorThumbSubHeadline{width:160px;}
+.myvehicleSelectorThumbHeadline{text-transform:none;margin-bottom:5px;font-family:BMWType_Bold;}
+.myvehicleSelectorThumbHeadline a{text-transform:none;color:#262626;}
+.myvehicleSelectorThumbSubHeadline a{text-transform:none;color:#262626;}
+.myvehicleSelectorThumbHeadline:visited{text-transform:none;}
+.myvehicleSelectorThumbSubHeadline:visited{text-transform:none;font-weight:normal;}
+.myvehicleSelectorThumbSubHeadline{text-transform:none;font-size:13px;}
+.myvehicleSelectorThumbHeadline .vehicleName{max-width:140px;overflow:hidden;}
+.myvehicleSelectorThumbSubHeadline .vehicleFreeTextNote{overflow:hidden;white-space:pre;word-wrap:break-word;}
+#myvehicleSelectorThumbContainerContent{width:100%;}
+#myvehicleSelectorHeaderContainer{padding-top:7px;}
+.myvehicleSelectorSubHeaderContainer{height:20px;margin-top:10px;}
+.myvehicleSelectorSubHeaderContainer.myvehicleSelectorDeleteAdjust{height:55px;}
+#myvehicleSelectorCloseButton{background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/box/layer_close_x.png.resource.1450861918223.png');display:block;width:18px;height:18px;position:absolute;top:10px;right:10px;}
+.myvehicleSortParameters{display:none;}
+.myvehicleInvalidFlag{margin-right:4px;}
+.myvehicleSelPrimaryFlag{margin-left:2px;}
+.myvehicleSelPrimaryFlag,.myvehicleInvalidFlag{background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/labels.png.resource.1450861918235.png');display:none;background-repeat:no-repeat;}
+a{text-decoration:none;}
+#myvehicleSortSelectorContainer form{margin:0;}
+#myvehicleSortSelector{margin-left:0;width:180px;}
+#myvehicleSortSelectorContainerLeft{float:left;}
+#myvehicleSortSelectorContainer{display:block;margin:0;padding:0;font-family:BMWType_Bold;font-size:13px;float:right;}
+.myvehicleSortSelect{display:inline-block;}
+.myVehicleDeleteLayer{width:auto;margin-left:10px;position:absolute;background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/dither/dither.png.resource.1450861918220.png');display:block;visibility:hidden;z-index:1300;}
+.myvehicleSelectorThumb4inARow,.myVehicleDeleteLayer{height:185px;}
+.myvehicleSelectorOneColumns .myvehicleSelectorThumb4inARow,.myvehicleSelectorOneColumns .myVehicleDeleteLayer{height:292px;}
+.myvehicleSelectorTwoColumns .myVehicleDeleteLayer,.myvehicleSelectorTwoColumns .myvehicleSelectorThumb4inARow{height:216px;}
+.myvehicleDitherDivWhite{bottom:60px;display:block;margin-left:5px;padding-bottom:7px;position:absolute;width:160px;background:#e6e6e6;padding:10px;}
+.myvehicleDitherDiv{width:180px;}
+.myvehicleDeleteDiv{bottom:0;display:block;left:5px;position:absolute;background:#e6e6e6;width:160px;padding:0 10px 10px;}
+.myvehicleDeleteDiv a.buttonComp{margin-top:6px;width:130px;}
+.myvehicleDeleteMessage{color:red;display:none;font-family:BMWType_Bold;font-size:13px;margin-bottom:14px;}
+.myVehicleSelectorNoVehicle{height:145px;margin-top:12px;position:relative;}
+.myVehicleSelectorNoVehicleLabel{font-family:BMWType_Bold;font-size:17px;padding-top:12px;line-height:20px;width:260px;}
+.myVehicleSelectorNoVehicleImg{float:right;}
+.myvehicleselector .subBrandVehicleContainer{display:none;margin-top:25px;}
+.myvehicleselector .myvehicleSelectorTwoColumns{margin-top:3px;}
+.myvehicleselector .myvehicleSelectorOneColumns{margin-top:-10px;}
+.myvehicleselector .myvehicleSelectorOneColumns .subBrandLabel{margin-top:58px;}
+.myvehicleselector .myvehicleSelectorTwoColumns .subBrandLabel{margin-top:48px;}
+.myvehicleselector .subBrandLabel{position:absolute;font-size:95px;margin-top:23px;margin-left:8px;color:#e6e6e6;}
+.myvehicleselector .subBrandLabel{font-family:BMWType_Bold;width:350px;}
+.myconfigselector.gplContent{width:685px;margin-top:7px;}
+.myconfigselector .gplContentFooter{border-top:0;}
+.glassPaneLayer .myconfigselectorHeader h1{padding:0;margin:16px 0 0 -2px;}
+.myConfigSelectorMarginRight{margin-right:-35px!important;}
+#myConfigSelectDialogId .dialogComponent{padding-bottom:30px;}
+#myConfigSelectDialogId .dialogComponentHeader{margin-bottom:30px;}
+#myconfigSelectorPopupContent{background-color:#FFF;position:relative;margin-left:-15px;}
+.myconfigSelectorConfigItem{overflow:hidden;display:block;margin-right:35px;position:relative;float:left;}
+.myconfigSelectorTwoColumns .myconfigSelectorConfigItem{margin-right:55px;}
+.myconfigSelectorOneColumns .myconfigSelectorConfigItem:first-child{margin-right:0;}
+.myconfigselector #myconfigSelectorThumbContainerContent_bmwi{margin-top:30px;}
+.myconfigselector #myconfigSelectorThumbContainerContent_bmwi.myconfigSelectorOneColumns{margin-top:6px;}
+.myconfigSelectorTwoColumns .myconfigSelectorConfigItem:first-child{margin-right:85px;}
+.myconfigSelectorContent{position:relative;}
+.myconfigSelectorThumb4inARow{width:210px;}
+.myconfigSelectorOneColumns .myconfigSelectorThumb4inARow{width:460px;}
+.myconfigSelectorTwoColumns .myconfigSelectorThumb4inARow{width:300px;}
+.myconfigSelectorThumbnailDiv{display:block;height:117px;width:210px;}
+.myconfigSelectorOneColumns .myconfigSelectorThumbnailDiv{height:206px;width:460px;}
+.myconfigSelectorTwoColumns .myconfigSelectorThumbnailDiv{height:166px;width:300px;}
+.myconfigSelectorRemoveButton{background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/icons.png.resource.1450861918234.png');display:block;position:absolute;top:105px;right:21px;width:18px;height:18px;background-repeat:no-repeat;}
+.selectedConfiguration .myconfigSelectorRemoveButton{top:107px;}
+.myconfigSelectorOneColumns .myconfigSelectorRemoveButton{top:215px;right:271px;}
+.myconfigSelectorOneColumns .selectedConfiguration .myconfigSelectorRemoveButton{top:219px;}
+.myconfigSelectorTwoColumns .myconfigSelectorRemoveButton{top:136px;right:111px;}
+.myconfigSelectorTwoColumns .selectedConfiguration .myconfigSelectorRemoveButton{top:140px;}
+.myconfigSelectorThumb2inARow{border:1px solid blue;display:block;height:130px;width:180px;float:left;margin:13px;text-align:center;vertical-align:bottom;}
+.myconfigSelectorHeadline{font-size:32px;line-height:32px;font-family:BMWType_Bold;color:#262626;margin-left:30px;}
+#myconfigSortSelectorContainer .myconfigSelectorSubHeadline{margin-right:6px;}
+.myconfigSelectorSubHeadline{font-size:13px;color:#262626;text-transform:none;display:inline-block;}
+.myconfigSelectorSubHeaderContainer #myconfigCount{font-size:17px;}
+.myconfigSelectorSubHeaderContainer #myconfigEmptySlots{font-size:17px;}
+.myconfigSelectorThumbHeadlineContainer{position:absolute;top:96px;left:15px;height:auto;width:170px;padding-left:10px;padding-top:10px;padding-bottom:10px;}
+.selectedConfiguration .myconfigSelectorThumbHeadlineContainer{top:99px;}
+.myconfigSelectorOneColumns .myconfigSelectorThumbHeadlineContainer{top:208px;}
+.myconfigSelectorTwoColumns .myconfigSelectorThumbHeadlineContainer{top:129px;}
+.myconfigSelectorConfigItemHover .myConfigSelectorSelectIndicator,.myconfigSelectorConfigItemSelected .myConfigSelectorSelectIndicator{display:block;}
+.myconfigSelectorConfigItemHover .myconfigSelectorThumbnailDiv,.myconfigSelectorConfigItemSelected .myconfigSelectorThumbnailDiv{top:-5px;}
+.myConfigSelectorSelectIndicator{position:absolute;bottom:-4px;height:5px;width:180px;background-color:#1C69D4;left:15px;display:none;z-index:1;}
+.selectedConfiguration .myConfigSelectorSelectIndicator{display:block;}
+.myconfigSelectorOneColumns .myConfigSelectorAnimationWrapper.myConfigIsInvalid{height:100px;margin-top:-96px;}
+.myconfigSelectorOneColumns .myConfigSelectorAnimationWrapper{margin-top:-27px;}
+.myconfigSelectorTwoColumns .myConfigSelectorAnimationWrapper{margin-top:-66px;}
+.myconfigSelectorTwoColumns .myConfigSelectorAnimationWrapper.myConfigIsInvalid{height:75px;margin-top:-95px;}
+.myConfigSelectorAnimationWrapper.myConfigIsInvalid{height:70px;margin-top:-91px;}
+.myConfigSelectorAnimationWrapper{height:30px;margin-left:15px;margin-top:-50px;overflow:hidden;position:relative;}
+.myConfigSelectorSelect_ChooseButton{background-color:#1C69D4;display:none;height:5px;margin-top:25px;padding-left:15px;position:absolute;width:165px;}
+.myConfigIsInvalid .myConfigSelectorSelect_ChooseButton{margin-top:65px;}
+.myconfigSelectorOneColumns .myConfigIsInvalid .myConfigSelectorSelect_ChooseButton{margin-top:95px;}
+.myconfigSelectorTwoColumns .myConfigIsInvalid .myConfigSelectorSelect_ChooseButton{margin-top:70px;}
+.myconfigSelectorOneColumns .myConfigSelectorSelect_invalidConfigText{padding-bottom:38px;}
+.myconfigSelectorTwoColumns .myConfigSelectorSelect_invalidConfigText{padding-bottom:13px;}
+.myConfigSelectorSelect_invalidConfigText{display:none;font-weight:bold;width:180px;padding-bottom:8px;}
+.myConfigSelectorSelect_DividerBar{background-color:white;bottom:0;height:22px;padding-top:5px;margin-top:2px;position:absolute;top:100px;width:180px;}
+.myconfigSelectorOneColumns .myConfigSelectorSelect_DividerBar{width:460px;}
+.myconfigSelectorOneColumns .myConfigIsInvalid .myConfigSelectorSelect_DividerBar{height:100px;}
+.myconfigSelectorTwoColumns .myConfigSelectorSelect_DividerBar{width:300px;}
+.myconfigSelectorTwoColumns .myConfigIsInvalid .myConfigSelectorSelect_DividerBar{height:75px;}
+.myConfigIsInvalid .myConfigSelectorSelect_DividerBar{height:70px;}
+.myconfigSelectorThumbHeadline,.myconfigSelectorThumbSubHeadline{font-size:13px;line-height:15px;color:#262626;text-align:left;vertical-align:top;position:relative;white-space:normal;max-height:30px;overflow:hidden;font-weight:normal;width:140px;}
+.myconfigSelectorThumbSubHeadline{width:160px;}
+.myconfigSelectorThumbHeadline{text-transform:none;margin-bottom:5px;font-family:BMWType_Bold;}
+.myconfigSelectorThumbHeadline a{text-transform:none;color:#262626;}
+.myconfigSelectorThumbSubHeadline a{text-transform:none;color:#262626;}
+.myconfigSelectorThumbHeadline .configName{max-width:140px;overflow:hidden;}
+.myconfigSelectorThumbSubHeadline .configFreeTextNote{overflow:hidden;white-space:pre;word-wrap:break-word;}
+.myconfigSelectorThumbHeadline:visited{text-transform:none;}
+.myconfigSelectorThumbSubHeadline:visited{text-transform:none;font-weight:normal;}
+.myconfigSelectorThumbSubHeadline{text-transform:none;font-size:13px;}
+#myconfigSelectorThumbContainerContent{width:100%;}
+#myconfigSelectorHeaderContainer{padding-top:7px;}
+.myconfigSelectorSubHeaderContainer{height:20px;margin-top:13px;margin-bottom:-10px;}
+.myconfigSelectorSubHeaderContainer.myconfigSelectorDeleteAdjust{height:55px;}
+#myconfigSelectorCloseButton{background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/box/layer_close_x.png.resource.1450861918223.png');display:block;width:18px;height:18px;position:absolute;top:10px;right:10px;}
+.myconfigSortParameters{display:none;}
+.myconfigInvalidFlag{margin-right:4px;}
+.myconfigInvalidFlag,.myconfigSelPrimaryFlag{margin-left:2px;}
+.myconfigSelPrimaryFlag,.myconfigInvalidFlag{background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/labels.png.resource.1450861918235.png');display:none;background-repeat:no-repeat;}
+a{text-decoration:none;}
+#myconfigSortSelectorContainer form{margin:0;}
+#myconfigSortSelector{margin-left:0;width:180px;}
+#myconfigSortSelectorContainerLeft{float:left;}
+#myconfigSortSelectorContainer{display:block;margin:0;padding:0;font-family:BMWType_Bold;font-size:13px;float:right;}
+.myconfigSortSelect{display:inline-block;}
+.myConfigDeleteLayer{width:auto;margin-left:10px;position:absolute;background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/dither/dither.png.resource.1450861918220.png');display:block;visibility:hidden;z-index:1300;}
+.myconfigSelectorThumb4inARow,.myConfigDeleteLayer{height:185px;}
+.myconfigSelectorOneColumns .myconfigSelectorThumb4inARow,.myconfigSelectorOneColumns .myConfigDeleteLayer{height:292px;}
+.myconfigSelectorTwoColumns .myconfigSelectorThumb4inARow,.myconfigSelectorTwoColumns .myConfigDeleteLayer{height:216px;}
+.myconfigDitherDivWhite{bottom:60px;display:block;margin-left:5px;padding-bottom:7px;position:absolute;width:160px;background:#e6e6e6;padding:10px;}
+.myconfigDitherDiv{width:165px;}
+.myconfigDeleteDiv{bottom:0;display:block;left:5px;position:absolute;background:#e6e6e6;width:160px;padding:0 10px 10px;}
+.myconfigDeleteDiv a.buttonComp{margin-top:6px;width:130px;}
+.myconfigDeleteMessage{color:red;display:none;font-family:BMWType_Bold;font-size:13px;margin-bottom:14px;}
+.myConfigSelectorNoConfiguration{height:145px;margin-top:12px;position:relative;}
+.myConfigSelectorNoConfigLabel{font-family:BMWType_Bold;font-size:17px;padding-top:12px;line-height:20px;width:260px;}
+.myConfigSelectorNoConfigImg{float:right;}
+.myconfigselector .subBrandContainer{display:none;margin-top:25px;}
+.myconfigselector .myconfigSelectorTwoColumns{margin-top:3px;}
+.myconfigselector .myconfigSelectorOneColumns{margin-top:-10px;}
+.myconfigselector .myconfigSelectorOneColumns .subBrandLabel{margin-top:58px;}
+.myconfigselector .myconfigSelectorTwoColumns .subBrandLabel{margin-top:48px;}
+.myconfigselector .subBrandLabel{position:absolute;font-size:95px;margin-top:23px;margin-left:8px;color:#e6e6e6;}
+.myconfigselector .subBrandLabel{font-family:BMWType_Bold;width:350px;}
+.offerContentBorder{margin:20px;}
+.offerContentBorderEditMode{width:230px;}
+.offerTeaserType h4{margin-bottom:0;padding-bottom:0;}
+.offerLinkArea{clear:both;}
+.teaserType1 .offerImage,.teaserType2 .offerImage,.teaserType3 .offerImage,.teaserType3.accented .offerImage,.teaserType9 .offerImage,.teaserType9.accented .offerImage,.teaserType10 .offerImage,.teaserType10.accented .offerImage,.teaserType11 .offerImage,.teaserType11.accented .offerImage{height:100px;overflow:hidden;}
+.teaserType4 .offerImage,.teaserType5 .offerImage,.teaserType6 .offerImage,.teaserType6.accented .offerImage{height:150px;overflow:hidden;}
+.offerHeadlineMedium h4{font-size:22px;letter-spacing:-0.8px;line-height:22px;}
+.offerHeadlineLarge h4{font-size:32px;line-height:32px;letter-spacing:-1.59px;}
+.offerHeadlineXlarge h4{font-size:44px;line-height:44px;letter-spacing:-2px;}
+.offerHeadlineXxlarge h4{font-size:56px;letter-spacing:-2px;line-height:56px;}
+.offerImage.offerCosyImg{margin-left:0;margin-top:0;}
+.accented .linkArrow13px,.accented .linkArrow13pxWhite{display:inline-block;height:18px;overflow:hidden;background-position:-1020px -197px;}
+.offerTeaserType .linkArrow13px{line-height:16px;}
+.teaserType1 .offerLinkArea{bottom:0;}
+.teaserType1 .offerHeadlineXS{margin-top:2px;max-height:88px;overflow:hidden;}
+.offerHeadlineXS h4{font-size:13px;line-height:16px;}
+.offerTeaserType.teaserType1 .offerImage{margin-bottom:11px;}
+.teaserType1 .offerTeaserContentWrap{height:214px;overflow:hidden;}
+.teaserType1 .offerHeadlineSmall{font-size:13px;margin-bottom:2px;}
+.teaserType1 .offerText{margin-top:6px;}
+.teaserType2 .offerTeaserContentWrap{height:210px;overflow:hidden;}
+.offerTeaserType.teaserType2 .offerHeadlineSmall{margin-bottom:7px;margin-top:1px;max-height:85px;overflow:hidden;float:left;}
+.offerTeaserType.teaserType2 .offerImage{height:100px;margin-bottom:12px;}
+.offerTeaserType.teaserType2 .offerHeadlineMedium{margin-top:1px;float:left;}
+.offerTeaserType.teaserType2 .offerHeadlineMedium h4{height:95px;}
+.offerTeaserType .teaserType2 .offerHeadline h2{margin-top:4px;}
+.offerTeaserType.teaserType2 .offerHeadlineSmall h4{height:70px;font-size:17px;letter-spacing:-0.75px;}
+.offerTeaserType .teaserType2 .offerLinkArea{height:30px;overflow:hidden;}
+.teaserType3 .offerTeaserContentWrap{max-height:200px;overflow:hidden;}
+.teaserType3.accented .offerTeaserContentWrap{max-height:180px;}
+.offerTeaserType.teaserType3.accented .offerHeadlineSmall{margin-bottom:4px;}
+.teaserType3 h4.offerPrice{width:100%;font-size:17px;line-height:18px;margin-top:2px;margin-bottom:2px;float:left;}
+.offerTeaserType.teaserType3 .offerImage{margin-bottom:11px;}
+.teaserType3.accented .offerPrice,.teaserType6.accented .offerPrice,.teaserType7.accented .offerPrice{display:block;height:17px;color:white;}
+.offerTeaserType.accented .offerLinkText{background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/button/1px_bgs.png.resource.1450861918222.png');background-position:0 -193px;background-repeat:repeat-x;width:168px;height:42px;padding:5px 6px 0;overflow:hidden;float:left;clear:both;bottom:2px;}
+.offerTeaserType.accented .linkArrow13pxWhite:hover{background-position:-1020px -197px;}
+.offerTeaserType.accented .offerLinkText h3{margin-top:0;margin-bottom:0;}
+.offerTeaserType.accented .copyText{color:#fff;}
+.offerTeaserType.accented:hover .offerLinkText{background-image:none;background-color:#F90;}
+.teaserType3.accented .offerLinkText h3,.teaserType3.accented .offerLinkText h4,.teaserType3.accented .offerLinkText a,.teaserType6.accented .offerLinkText h3,.teaserType6.accented .offerLinkText h4,.teaserType6.accented .offerLinkText a,.teaserType7.accented .offerLinkText h3,.teaserType7.accented .offerLinkText h4,.teaserType7.accented .offerLinkText a,.teaserType9.accented .offerLinkText h3,.teaserType9.accented .offerLinkText h4,.teaserType9.accented .offerLinkText a,.teaserType10.accented .offerLinkText h3,.teaserType10.accented .offerLinkText h4,.teaserType10.accented .offerLinkText a,.teaserType11.accented .offerLinkText h3,.teaserType11.accented .offerLinkText h4,.teaserType11.accented .offerLinkText a{color:#fff;}
+.offerTeaserType.teaserType4 .offerImage{margin-bottom:13px;}
+.teaserType4 .offerHeadline h4{height:33px;overflow:hidden;}
+.teaserType4 .offerHeadline h4{font-size:13px;line-height:13px;}
+.teaserType5 .offerHeadlineLarge h4{font-size:17px;line-height:17px;height:33px;overflow:hidden;letter-spacing:normal;padding-bottom:3px;}
+.teaserType5 .offerLinkText{width:100%;height:33px;overflow:hidden;}
+.teaserType5 .offerLinkText a{position:absolute;bottom:0;}
+.offerTeaserType.teaserType5 .offerImage{margin-bottom:12px;}
+.teaserType6 .offerLinkArea{height:20px;}
+.teaserType6 h3.offerPrice{position:relative;}
+.offerTeaserType.teaserType6 .offerImage{margin-bottom:11px;}
+.offerTeaserType .offerPriceFrom{vertical-align:0;}
+.teaserType6 .offerHeadline{max-height:32px;overflow:hidden;}
+.teaserType6.accented .offerHeadline{max-height:18px;}
+.teaserType7 .offerHeadlineXxlarge,.teaserType7 .offerHeadlineLarge,.teaserType7 .offerHeadlineMedium{margin-bottom:6px;}
+.teaserType7 .offerHeadlineXxlarge{overflow:hidden;margin-top:-9px;}
+.teaserType7 .offerHeadlineXxlarge h4{padding-bottom:4px;}
+.teaserType7 .offerHeadlineXxlarge+.offerText{display:none;}
+.teaserType7 .offerHeadlineXlarge{overflow:hidden;margin-top:-7px;margin-bottom:0;}
+.teaserType7.xlarge .offerTeaserContentWrap{margin-bottom:3px;}
+.teaserType7 .offerHeadlineXlarge h4{margin-bottom:0;padding-bottom:5px;}
+.teaserType7 .offerHeadlineMedium{overflow:hidden;margin-top:-3px;margin-bottom:5px;}
+.teaserType7 .offerHeadlineMedium h4{padding-bottom:5px;margin:0;}
+.teaserType7 .offerHeadlineLarge h4{padding-bottom:5px;margin-bottom:0;}
+.teaserType7 .offerHeadlineLarge{margin-bottom:0;margin-top:-3px;overflow:hidden;}
+.teaserType7 .offerTeaserContentWrap{width:100%;height:auto;float:left;margin-bottom:0;}
+.teaserType7.large .offerTeaserContentWrap{margin-top:-2px;margin-bottom:4px;}
+.teaserType7 .offerText{max-height:65px;overflow:hidden;float:left;clear:both;}
+.teaserType9 .offerPrice span,.teaserType10 .offerPrice span,.teaserType11 .offerPrice span{font-size:13px;}
+.teaserType9 .offerHeadline{width:100%;overflow:hidden;margin-bottom:0;margin-top:1px;float:left;clear:both;}
+.teaserType9.accented .offerHeadline{margin-bottom:4px;}
+.teaserType9 .offerHeadline h4{padding-bottom:2px;}
+.teaserType9 .offerText{width:100%;float:left;clear:both;max-height:63px;overflow:hidden;}
+.teaserType9.accented .offerText{height:63px;margin-top:-1px;}
+.teaserType9 .offerTeaserContentWrap .teaserType9.accented .offerTeaserContentWrap{overflow:hidden;max-height:215px;}
+.teaserType9.accented .offerTeaserContentWrap,.teaserType10.accented .offerTeaserContentWrap{overflow:hidden;max-height:180px;}
+.teaserType9 .accented .offerLinkText{top:183px;}
+.teaserType9 h4.offerPrice,.teaserType10 h4.offerPrice,.teaserType11 h4.offerPrice{display:inline-block;float:left;clear:both;width:100%;height:auto;overflow:hidden;font-size:17px;line-height:18px;margin-bottom:2px;}
+.teaserType9 .offerLinkTextPrice{float:left;color:white;font-size:17px;margin-right:4px;margin-bottom:3px;}
+.teaserType9 .offerLinkTextPriceLink{margin-top:-3px;}
+.teaserType10 .offerHeadlineMedium{margin-top:1px;}
+.teaserType10 .offerHeadlineLarge+h4.offerPrice{margin-top:1px;}
+.teaserType11 .offerHeadlineLarge+.offerHeadline+.offerPrice{margin-top:2px;}
+.teaserType9 .offerHeadlineSmall{float:left;width:100%;height:auto;overflow:hidden;margin-bottom:0;}
+.teaserType10 .offerHeadlineSmall{float:left;clear:both;width:100%;overflow:hidden;margin-top:1px;}
+.teaserType10 .offerHeadlineMedium h4{max-height:65px;overflow:hidden;margin-bottom:0;padding-bottom:5px;font-size:17px;line-height:17px;letter-spacing:normal;}
+.teaserType10 .offerHeadlineMedium{float:left;clear:both;width:100%;overflow:hidden;margin-top:7px;}
+.teaserType10 .offerHeadlineMedium+h4.offerPrice{margin-top:-2px;}
+.teaserType11 .offerHeadlineMedium h4{font-size:17px;line-height:17px;margin-bottom:3px;max-height:38px;overflow:hidden;padding-bottom:2px;}
+.teaserType11 .offerHeadlineMedium+.offerHeadline{margin-bottom:2px;}
+.teaserType10 .offerHeadlineLarge h4{width:100%;float:left;overflow:hidden;clear:both;font-size:22px;letter-spacing:-0.8px;line-height:24px;margin-top:2px;}
+.offerTeaserType.teaserType11 .offerImage{margin-bottom:9px;}
+.teaserType11 .offerHeadlineLarge h4{font-size:22px;letter-spacing:-0.8px;line-height:22px;padding:0;margin-top:4px;margin-bottom:1px;padding-bottom:3px;max-height:44px;overflow:hidden;float:left;width:100%;clear:both;}
+.teaserType11 .offerHeadline,.teaserType11 .offerHeadlineSmall{overflow:hidden;float:left;clear:both;width:100%;}
+.teaserType3.accented .spriteIconInfoSmall,.teaserType6.accented .spriteIconInfoSmall,.teaserType7.accented .spriteIconInfoSmall,.teaserType9.accented .spriteIconInfoSmall,.teaserType10.accented .spriteIconInfoSmall,.teaserType11.accented .spriteIconInfoSmall{background-position:0 -364px;}
+.teaserType3.accented .spriteIconInfoSmall:hover,.teaserType6.accented .spriteIconInfoSmall:hover,.teaserType7.accented .spriteIconInfoSmall:hover,.teaserType9.accented .spriteIconInfoSmall:hover,.teaserType10.accented .spriteIconInfoSmall:hover,.teaserType11.accented .spriteIconInfoSmall:hover{background-position:0 -30px;}
+.offerTeaserType .offerLinkText a{height:17px;}
+.teaserTypeTDA .crossheader{margin-top:-6px!important;}
+.teaserTypeTDA .copyTextNoPadding{margin-top:5px!important;}
+.teaserType9 .offerPrice a{height:17px!important;}
+.teaser .brand-bmwi .offerHeadlineMedium h4,.teaser .brand-bmwi .offerHeadlineLarge h4,.teaser .brand-bmwi .offerHeadlineXlarge h4,.teaser .brand-bmwi .offerHeadlineXxlarge h4{font-family:BMWType_Light;letter-spacing:.24px;}
+.teaser .brand-bmwi .teaserType2 h4{line-height:26px;}
+.teaser .brand-bmw .offerHeadlineMedium h4,.teaser .brand-bmw .offerHeadlineLarge h4,.teaser .brand-bmw .offerHeadlineXlarge h4,.teaser .brand-bmw .offerHeadlineXxlarge h4{font-family:BMWType_Bold;}
+.smallAccordion-tab{border-bottom:2px solid #e6e6e6;padding:8px 0;}
+.smallAccordion-head{background-color:white;cursor:pointer;display:block;}
+.smallAccordion-tab .smallAccordion-head h4.smallAccordion-headline{padding:1px 0 0;margin:0;}
+.smallAccordion-content{display:block;background-color:white;color:white;}
+.smallAccordion-head div.smallAccordion-icon{float:left;margin-right:10px;}
+.smallAccordion-collapsed .smallAccordion-content{display:none;}
+.smallAccordion-expanded .smallAccordion-content{display:block;}
+.smallAccordion-tab .ditherOverlay{display:none;}
+.smallAccordion-tab.disabled .ditherOverlay{display:block;}
+.cqEditMode .smallAccordion-tab.disabled .ditherOverlay{display:none;}
+.dloRouteError{position:relative;margin-top:10px;}
+.routePlanning .dloRouteplanningControl{overflow-x:hidden;overflow-y:auto;max-height:226px;margin-bottom:0;margin-top:0;}
+.routePlanning .dloRouteplanningControl p{margin-bottom:3px;margin-top:5px;}
+.routePlanning .dloRouteInput{padding:1px 0 0 6px;width:180px;}
+.dloRouteplanningControl.hasResult #dloRouteInput{display:none;}
+#dloRouteInput p.dloLabelFrom{margin-top:14px;}
+#rfxDloFrom{margin-top:3px;width:100%;}
+#dloRouteInput p.dloLabelTo{margin-top:12px;}
+#dloRouteInput label.dloLabel{font-family:BMWType_Bold,Arial,sans-serif;font-size:13px;}
+#rfxDloTo{margin-top:4px;padding-bottom:9px;}
+#dloRouteResult{display:none;padding:1px 0 0 6px;overflow-x:hidden;word-wrap:break-word;}
+.dloRouteplanningControl.hasResult #dloRouteResult{display:block;}
+#dloRouteResultPrint{display:none;margin-top:10px;}
+.dloRouteplanningControl.hasResult #dloRouteResultPrint{display:block;}
+#dloRouteResult .routealternativesEntry{cursor:pointer;margin-top:9px;}
+#dloRouteResult .routealternativesEntry:first-child{margin-top:4px;}
+#dloRouteResult .routealternativesSelected{color:#1F66CE;cursor:auto;}
+#dloRouteResult .routealternativeLabel{font-family:BMWType_Bold,Arial,sans-serif;margin-right:6px;}
+#dloRouteResult .routealternativeDuration,#dloRouteResult .routealternativeDistance{white-space:nowrap;}
+#dloRouteResult .printRouteIcon{float:left;padding-right:6px;margin-top:2px;}
+#dloRouteResult .routeEntryStart,#dloRouteResult .routeEntryEnd{margin-top:9px;padding-bottom:5px;}
+#dloRouteResult .routeA,#dloRouteResult .routeB{float:left;margin-right:10px;}
+#dloRouteResult .routeEntryStart .routeEntryAddress,#dloRouteResult .routeEntryEnd .routeEntryAddress{float:left;width:145px;}
+#dloRouteResult .routedirectionsStep{margin-top:4px;}
+#dloRouteResult .routedirectionsNumber{font-family:BMWType_Bold,Arial,sans-serif;float:left;width:30px;}
+#dloRouteResult .routedirectionsInstructions{float:left;width:170px;}
+#dloRouteResult .routedirectionsInstructions b{font-family:BMWType_Bold,Arial,sans-serif;font-weight:normal;}
+#dloRouteResult .routedirectionsDistance{text-align:right;}
+#dloRouteResult .routedirectionsCopyrights{margin-top:19px;}
+.dealerLocator .dloControl .dloRouteplanningControl{overflow-x:hidden;overflow-y:auto;}
+.dealerLocator .dloRouteplanningControl{height:266px;overflow-y:auto;}
+.spec{overflow:hidden;position:relative;}
+.specLeftPanelWrap{width:275px;}
+.specLeftPanel{margin-left:45px;margin-top:114px;}
+.specRightPanel{width:10%;}
+.specRightPanel .imageBckRight{position:absolute;right:0;top:28em;z-index:-2000;}
+.specContentWrap{width:735px;overflow:visible;}
+.specContent{margin-top:43px;margin-left:20px;overflow:visible;width:100%;}
+.specColumn{float:left;vertical-align:top;}
+.specColumnRight{float:right;vertical-align:top;z-index:1000;}
+.specSpacer{height:100px;}
+.specGeneralDisclaimer{margin-top:10px;}
+.leftPanelWrap{width:275px;}
+.leftPanel{margin-left:45px;margin-top:114px;}
+.contentWrap{width:995px;}
+.content{margin-top:43px;margin-left:20px;}
+.allWrap{margin-top:43px;width:100%;}
+.column{float:left;vertical-align:top;}
+.generalTemplate{overflow:hidden;margin-bottom:43px;min-height:500px;}
+.glossaryIndex .glossaryIndexLeft{margin-top:69px;margin-left:50px;}
+.glossaryIndex .glossaryIndexLeft label{cursor:pointer;}
+.glossaryIndex .glossaryIndexCenterColumn{margin-bottom:78px;}
+.glossaryIndex .indexHeadline{margin-bottom:33px;}
+.glossaryIndex .indexEntries{margin-bottom:24px;}
+.glossaryIndex .indexEntries h2,.glossaryIndex .indexEntries h3{float:left;}
+.glossaryIndex .indexLetterGroup{border-bottom:2px solid #e6e6e6;margin-bottom:15px;padding-bottom:13px;}
+.glossaryIndex .indexLetterGroup h1{margin-bottom:11px;text-transform:uppercase;}
+.glossaryIndex .indexLetterItems{margin-left:-50px;}
+.glossaryIndex .indexLetterItems>div{display:inline-block;vertical-align:top;}
+.glossaryIndex .indexLetterItem{display:inline-block;margin-bottom:15px;width:195px;vertical-align:top;margin-left:50px;}
+.glossaryIndexDisclaimer{width:440px;margin-top:27px;}
+.glossaryRightPanel .offerArea{margin-top:158px;margin-bottom:27px;}
+.glossaryRightPanel .offer{margin-top:0;margin-bottom:30px;}
+.glossaryIndex .threeColumnsCenter{width:705px;}
+.glossaryIndex{margin-top:43px;}
+.glossaryIndex .threeColumnsRightWrap,.glossaryIndex .offerContainer{width:210px;}
+.glossaryIndex .indexLetterHeadline{color:#262626;font-family:BMWType_Bold;vertical-align:top;letter-spacing:-1.59px;font-size:32px;line-height:32px;padding-bottom:17px;margin-bottom:-3px;}
+.glossaryIndex .indexEntriesCount{margin-right:4px;}
+.glossaryIndex .glossaryIndexLeftHeadline{margin-bottom:13px;}
+.glossaryIndex .glossaryIndexLeftReset{margin-bottom:11px;}
+.glossaryIndex .glossaryIndexLeftFilterHeadline{margin-bottom:14px;}
+.glossaryIndex .glossaryIndexLeftFilterListItem{margin-bottom:4px;}
+.glossaryIndex .glossaryIndexLeftFilterListItem input{display:inline;vertical-align:bottom;margin-right:5px;margin-bottom:1px;}
+.glossaryIndex .glossaryIndexLeftFilterListItem label{display:inline;}
+.glossaryIndex .indexEntriesCountLabel{position:relative;top:4px;}
+.glossaryIndex .indexEntriesCountLabelSingular{display:none;}
+.newsIndexCenter{float:left;clear:both;margin-bottom:90px;}
+.newsIndex .newsContainer{width:100%;float:left;overflow:hidden;clear:both;margin-bottom:25px;margin-top:5px;}
+.newsIndex .threeColumnsLeft{margin-left:50px;margin-top:114px;width:195px;}
+.newsIndex .newsIndexCategorylist div,.newsIndex .newsIndexCategorylist li{margin-bottom:5px;}
+.newsEntriesCount{margin-right:4px;}
+.newsIndex .threeColumnsCenter{margin-left:20px;margin-top:43px;margin-bottom:90px;width:600px;}
+.newsIndex .newsIndexHeadline{margin-left:-247px;}
+.newsEntries .headlineh2{line-height:20px;font-size:24px;}
+.newsEntries .headlineh3{line-height:24px;margin-left:3px;font-size:24px;}
+.newsEntries{width:100%;float:left;overflow:hidden;clear:both;margin-top:32px;height:27px;}
+.newsTimeFilter,.newsEntriesHeadline{display:block;float:right;}
+.newsEntriesHeadline{float:left;line-height:20px;vertical-align:top;width:auto;}
+.newsIndexCategorylist div{margin-bottom:3px;}
+.newsItem{width:100%;float:left;border-bottom:2px #e6e6e6 solid;padding-bottom:30px;}
+.newsIndex .productPresentationHeadline{display:none;}
+.newsItem .newsLinkShow{float:left;margin-top:14px;}
+.newsItem .newsLinks{width:100%;float:left;overflow:hidden;clear:both;margin-top:-10px;margin-bottom:7px;}
+.newsItem .newsLinks h4{margin-top:4px;margin-bottom:1px;}
+.newsItem .linkListHeadline{margin-top:9px;margin-bottom:-2px;}
+.newsItem .newsLinkHide{margin-top:18px;}
+.newsItem .linkList+.newsLinkHide{float:left;overflow:hidden;clear:both;margin-top:15px;}
+.newsItem .newsTitle{float:left;margin-right:7px;margin-bottom:0;padding-bottom:0;vertical-align:text-bottom;font-size:17px;line-height:30px;}
+.newsItem .newsMeta{font-family:Arial,simHei,Sans-Serif;vertical-align:0;color:#666;font-size:14px;}
+.newsItem .newsHeader{width:100%;margin-bottom:9px;margin-top:20px;line-height:16px;}
+.newsItem .newsItemWrap,.newsItem .newsItemFull .newsHeader{width:100%;float:left;overflow:hidden;clear:both;}
+.newsItem .newsItemFull .newsHeader{margin-bottom:2px;}
+.newsItem .productPresentationText .text{line-height:18px;}
+.newsItem .newsThumb,.newsItem .newsSummaryText{display:block;float:left;}
+.newsItem .newsSummaryText{width:405px;line-height:18px;}
+.newsItem .newsSummaryTextWithoutImage{line-height:18px;}
+.newsItem .newsSummaryTextFull{width:510px;}
+.newsItem .newsThumb{height:100px;width:180px;overflow:hidden;margin-right:15px;margin-top:3px;background-color:#ccc;}
+.newsIndex .newsPreview{overflow:hidden;}
+.newsIndex .newsFullContainer,.newsIndex .newsFull{position:relative;float:left;clear:both;width:100%;}
+.newsIndex .newsFull{display:none;}
+.newsIndex .newsFullContainer{overflow:visible;}
+.newsIndexPager{width:100%;height:18px;float:left;overflow:hidden;clear:both;vertical-align:middle;}
+.newsIndexPager div.slideShowControlPrev,.newsIndexPager div.slideShowControlNext{margin:0;width:18px;}
+.newsIndexPager .ditherWrapper,.newsIndexPagerNext,.newsIndexPagerPrevious{position:relative;width:18px;height:18px;float:left;margin:0;}
+.newsIndexPager .ditherWrapper{position:absolute;top:0;left:0;}
+.newsIndexPager ul{float:left;margin:0 5px;}
+li.newsIndexPagerNo{width:27px;height:18px;float:left;text-align:center;}
+.newsTimeFilter{float:right;text-align:right;width:auto;}
+.newsTimeFilterSelect{float:left;overflow:hidden;margin-left:10px;margin-top:4px;}
+.newsFilterLabel{display:inline-block;float:left;overflow:hidden;margin-left:30px;margin-top:6px;}
+li.newsIndexPagerNo a{font-family:"BMWType_Bold",Arial,sans-serif;font-size:13px;color:#666;}
+li.newsIndexPagerNo a:hover,li.newsIndexPagerNo.current a{color:#1c69d4;}
+.newsFullContainer .shareButton{float:right;}
+.bottomNav .linkArrow13pxActive,.bottomNav a:hover,.bottomNav a:active{color:#0653b6!important;background-position:-780px -437px;}
+.bottomNav{width:100%;display:block;background-color:#b4b4b4;background-image:-webkit-gradient(linear,left top,left bottom,from(#b4b4b4),to(#8e8e8e));background-image:-webkit-linear-gradient(top,#b4b4b4,#8e8e8e);background-image:-moz-linear-gradient(top,#b4b4b4,#8e8e8e);background-image:-ms-linear-gradient(top,#b4b4b4,#8e8e8e);background-image:-o-linear-gradient(top,#b4b4b4,#8e8e8e);background-image:linear-gradient(top,#b4b4b4,#8e8e8e);}
+.bottomNav .headlineh4{padding-top:0;padding-bottom:7px;line-height:15px;}
+.bottomNavContainer{position:relative;padding:10px 0 13px 0;width:1180px;margin:0 0 0 50px;min-height:98px;}
+.bottomNavBlock{vertical-align:top;float:left;width:180px;margin:0 0 0 20px;}
+.bottomNavBlock:first-child{margin:0;}
+.bottomNavBlock h4{margin:1px 0 4px 0;}
+.bottomNavBlockList li{margin-bottom:5px;}
+.bottomNavBlockIcons{width:140px;margin:-1px 0 0 -1px;padding:0;}
+.bottomNavBlockIcons li{display:inline-block;padding:0;margin:0 -2px 0 0;height:20px;overflow:hidden;}
+.bottomNavBlockIcons li img{padding:2px;}
+.bottomNavBlockIcons li:hover{background:transparent url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/icon/base/icons.png.resource.1450861918234.png') no-repeat -30px -240px;}
+.bottomNavCopyright{position:absolute;bottom:17px;left:1000px;width:180px;}
+.nccBandwidthSelectorDiv{display:none;height:35px;padding-top:1px;margin-left:-4px;}
+.nccBandwidthSelectorLabel{position:relative;top:8px;left:2px;background-color:#fff;}
+.nccHighband{display:none;}
+.bottomNavBlockList{display:inline-block;}
+.breadcrumbArea{position:relative;height:24px;overflow:hidden;padding:9px 0 0 49px;background-color:#fff;}
+.breadcrumbItems{white-space:nowrap;}
+.breadcrumbItems>li{margin-right:15px;float:left;}
+.breadcrumbItems>li:first-child{line-height:15px;margin-right:9px;}
+.breadcrumb .linkArrow13px.ellipsis:hover{background-position:-990px -227px;color:#666;}
+.priceTotal,.priceRate{display:inline;padding-top:7px;padding-bottom:3px;}
+.priceRate{border-right:2px solid #E6E6E6;padding-left:0;margin-right:6px;padding-right:2px;}
+.priceHeadline{color:#262626;font-size:13px;line-height:15px;text-align:left;vertical-align:top;display:inline-block;padding-top:1px;position:relative;}
+.pricePrice{color:#262626;font-family:BMWType_Bold;font-size:13px;line-height:13px;text-align:left;vertical-align:top;display:inline-block;position:relative;top:1px;}
+.priceCurrency{position:relative;top:-3px;}
+.price>.infoIconLayer{display:inline-block;}
+.numberScrumber{display:inline-block;overflow:hidden;}
+.numberScrumberMantiseContainer{display:inline-block;position:relative;font-family:BMWType_Bold;}
+.salesBarStatic{max-width:1270px;position:relative;z-index:2300;bottom:0;}
+.salesBarFixed{position:fixed;z-index:4000;max-width:1270px;min-width:1237px;width:100%;margin:0 auto;bottom:-10px;}
+.salesBarDock{height:auto;position:relative;}
+#salesbarContextSensitive .salesBarPanel{overflow:hidden;height:0;opacity:0;background:#fff;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";}
+.salesBarPanelShadow{height:8px;background-image:url('/etc/designs/bmwnext/apps/bmwnext/base/static/parComponents/button/1px_bgs.png.resource.1450861918222.png');background-position:0 -102px;background-repeat:repeat-x;margin-top:0;}
+.salesBarPanelWhite{background:transparent;}
+.salesBarPanelWhite .salesBarPanelWhite{background:#fff;}
+.salesBarPanelContent{padding:0 0 10px 50px;width:1164px;margin-top:5px;}
+.salesBarTopLine{min-height:10px;padding:0 60px 0 50px;background:#fff;}
+#salesBarTopLineWrapper{opacity:0;height:0;width:100%;padding:0;overflow:hidden;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";}
+.salesBarButtonLine{margin-top:5px;padding-bottom:10px;height:40px;}
+.salesBarLeft{width:1164px;float:left;}
+.salesBarRight{float:right;}
+.salesBarRightPrice{margin-right:0;text-align:left;float:right;padding-top:7px;white-space:nowrap;margin-left:6px;}
+.salesBarLeftButtons{width:130px!important;margin-top:0!important;}
+.salesBarRightButtons{width:160px!important;margin-top:0!important;margin-left:4px;}
+.salesbarButtonsSpacer{display:table-cell;float:left;width:32px;}
+.salesbarButtonsSpacerSmall{float:left;width:150px;}
+.salesbarButtonsSpacerBig{float:left;width:180px;}
+.salesBarButtons{border-spacing:2px 0!important;left:-2px!important;}
+.salesBarRightButtons a{margin-left:6px;float:right;}
+.salesBarBGCover{display:none;width:100%;z-index:2250;bottom:0;position:fixed;background-color:#fff;}
+.thisConfiguration{float:left;padding-top:7px;padding-bottom:3px;height:19px;padding-right:10px;}
+.configurationHeadline{color:#262626;font-size:13px;line-height:16px;position:relative;text-align:left;vertical-align:top;}
+.configurationConfiguration{color:#262626;font-family:BMWType_Bold;font-size:13px;line-height:13px;text-align:left;vertical-align:top;position:relative;top:1px;}
+.salesBarRightPrice .price{white-space:nowrap;}
+div.salesBarButtons .salesBarSocRequestNCC{display:none;}
+div.salesBarButtons .salesBarSocRequestCMX{display:none;}
+.salesBarMldSwitch{position:relative;float:right;height:19px;padding-top:7px;text-align:right;white-space:nowrap;display:none;border-right:2px solid #E6E6E6;padding-right:5px;margin-left:6px;}
+.salesBarMldSwitch span{color:#262626;}
+.salesBarPanelHeightReference{height:10px;overflow:visible!important;}
+.highbandLowbandMaker{margin:0 0 0 50px;}
+.infoIconContextLayer ul{list-style-type:disc;padding-left:15px;}
+.infoIconContextLayer ol{list-style-type:decimal;padding-left:20px;}
+.smallTeaserContainerContent{padding:15px;height:238px;width:180px;position:relative;}
+.smallTeaserImage{width:180px;height:100px;overflow:hidden;}
+.smallTeaserHeadline{margin-top:13px;margin-bottom:0;font-weight:bold;font-size:13px;color:#262626;}
+.smallTeaserText{font-size:13px;margin-top:3px;color:#262626;}
+.smallTeaserLink{position:absolute;bottom:13px;left:15px;width:180px;font-weight:bold;font-size:13px;color:#888;}
+.smallTeaserLinkArrow{font-weight:bold;font-family:Verdana;font-size:17px;color:#262626;}
+.smallTeaserHeadlineUppercase .smallTeaserHeadline{text-transform:uppercase;}
+.smallTeaserHeadline17 .smallTeaserHeadline{font-size:17px;}
+.smallTeaserHeadline22 .smallTeaserHeadline{font-size:22px;}
+.smallTeaserHeadline32 .smallTeaserHeadline{font-size:32px;}
+.smallTeaserHeadline44 .smallTeaserHeadline{font-size:44px;}
+.smallTeaserHeadline56 .smallTeaserHeadline{font-size:56px;}
+.smallTeaserNoText .smallTeaserText{display:none;}
+.smallTeaserNoHeadline .smallTeaserHeadline{display:none;}
+.smallTeaserShowPrice .smallTeaserPrice{display:block;}
+.smallTeaserBigImage .smallTeaserImage{height:200px;}
+.smallTeaserNoImage .smallTeaserImage{display:none;}

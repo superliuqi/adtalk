@@ -1,0 +1,199 @@
+@charset "UTF-8";body{font-family:Arial,SimSun;font-size:10pt;}
+.headlineNormal,.headline h1,h1,h2.headline,.headline h2,.headlineh2,h2,h3.headline,.headline h3,.headlineh3,h3,.headlineh1Mixed,.headlineh2Mixed,.headlineh3Mixed,.headlineh4Mixed{font-family:Arial,SimHei;font-weight:bold;}
+.highlightContent .headlineSizable .headlineSizableMedium{font-size:17px!important;font-family:Arial,SimHei;}
+.printBgLayer{position:absolute;top:0;left:0;z-index:1;display:block;}
+.navigationFirstLine{position:relative;z-index:5;top:0;}
+.idModuleBg{display:none;}
+.menuBar .link21pxWhite{font-size:16px;}
+.menuBar .link17px,.menuBar .link17pxWhite,.menuBar .link17pxActive,.menuBar .link17pxActiveWhite{font-size:14px;}
+.idModule{width:220px;height:109px;right:70px;top:0;}
+.idModuleLayerRightAlign,.idModuleBg,.cookieDisclaimerInfoIcon{display:none;}
+.idModuleLayerRightAlign.idModulePrint{display:inline;}
+.idModule{width:220px;height:109px;right:20px;top:0;}
+.ie8 .idModule{left:380px;text-align:left;}
+.ie8 div{float:none!important;clear:both;}
+.link12px,.link13px,.link14px,.link16px,.link17px,.link22px,.link32px,.linkArrow13px,.linkArrow16px,.link12pxActive,.link13pxActive,.link16pxActive,.link16pxActive,.link22pxActive,.linkArrow13pxActive,.linkArrow16pxActive{text-decoration:underline;font-family:Arial,SimSun;font-weight:bold;padding-left:0;}
+.stageContainer{margin:0 0 20px 50px;}
+.standardContent,.standardContent .topnavi,.exploreHomeText{width:920px;min-width:0!important;min-height:0!important;}
+.flexibleStageBackgroundImage{top:10px;}
+.flexibleStageBackgroundImage img{width:80%;height:80%;}
+.flexibleStage .flexibleStageHeadlineContainer{left:10px!important;}
+.ie8 .flexibleStage .headline h1{font-size:28px;width:450px;}
+.navigation{margin-bottom:20px;}
+.base.top.topnavi,.topnavi{height:102px;}
+.isShowingVehicleManual .base.top.topnavi{display:none;}
+.activeColorSeriesTopics{color:#0e96fc!important;}
+.link12pxWhite,.link13pxWhite,.link16pxWhite,.link17pxWhite,.link21pxWhite,.link22pxWhite,.link23pxWhite,.linkArrow13pxWhite,.linkArrow16pxWhite,.link12pxActiveWhite,.link13pxActiveWhite,.link16pxActiveWhite,.link17pxActiveWhite,.link22pxActiveWhite,.link23pxActiveWhite,.linkArrow13pxActiveWhite,.linkArrow16pxActiveWhite{color:#000;}
+.specLeftPanel,.cmxLogOutput,.nccBandwidthSelectorDiv,.bottomNav,.salesBarDock,.breadcrumb{display:none;}
+.contentLeftNavigation,.threeColumnsLeftWrap,.leftNavigation,.navigationTopLoginLogoutLink{display:none;}
+.facebookLikeButton,.loginbox{display:none;}
+.homeLoginBoxFacebook{display:none;}
+.homeStage .largeTeaserOverlay{position:static;margin:50px 0 0 20px;}
+.newsIndex .newsIndexHeadline{margin-left:0!important;}
+.newsIndexCenter,.threeColumnSingleColumn{float:none!important;clear:both;}
+.newsIndex .threeColumnsCenter{margin:0;}
+.ie8 .newsIndex .newsContainer{margin-top:10px;}
+.ie8 .contentIntro{padding-top:100px;}
+.highlightContent{margin-right:100px;top:10px;}
+.ie7 .highlightContent,.ie8 .highlightContent,.ie9 .highlightContent{margin-right:120px;}
+.highlight{position:static!important;margin-top:50px;}
+.highlightComponents{top:100px!important;}
+.highlightBlock,.highlightTextBlock{position:relative!important;left:0!important;top:0!important;clear:both!important;float:none!important;min-width:0!important;min-height:0!important;height:auto!important;overflow:visible!important;}
+.ie7 .highlightBlock{width:800px!important;}
+.highlightBlock .image{position:static!important;left:0!important;top:0!important;}
+.highlightContent .highlightComponents .image img{width:80%!important;height:auto!important;display:block!important;}
+.ie8 .highlightContent .highlightComponents .image img{width:55%!important;height:55%!important;}
+.ie7 .productPresentationTeaserSlideShow{float:none!important;}
+.slideShowImageCurrentFade{visibility:hidden;}
+.ie8 .highlightContent .hlHeadlineContainer{padding-left:0;}
+.highlightBlock .headlineSizable .headlineSizableLarge{font-size:24px!important;}
+.ie7 .highlightContent{top:20px;}
+.ie7 .highlightContent .highlightComponents .headlineSizable .headlineSizableLarge{font-size:20px;}
+.ie7 .productPresentationTeaserSlideShow{float:none!important;}
+.disclaimerFooter{margin-left:0;}
+.carDesignStage{height:auto;}
+.carDesignContainerCopyText,.productPresentationTeaserContent,.twoColumns,.productPresentationFullwidth .productPresentationText{margin-left:0;}
+.slideShowImageContainer{margin-top:0;}
+.backgroundImageImage{height:auto!important;}
+.ie8 .topStageFlexibleStage .flexibleStageBackgroundImage img,.ie8 .productPresentationFullwidth .productPresentationImageContainer img{width:55%!important;height:55%!important;}
+.ie8 .flexibleStage .flexibleStageBackgroundImage{top:130px;}
+.ie8 .flexibleStageHeadlineContainer h3{margin-top:2px;}
+.pageBackgroundImage{display:none;}
+.shareFormLayerSectionHeadline{margin-left:0;}
+.contentIntro{margin-left:0;width:850px;padding-top:18px;}
+.specLeftPanelWrap{width:0;}
+.stageHeadlineContainer{position:static!important;color:#000!important;display:block;}
+div .headlineWhite,.headlineWhite{color:#262626!important;}
+.searchResultDynamicNavigationFacetteHeadlineValue{margin-left:0;}
+.searchResultDynamicNavigationFacetteHeadline .baseIconSprite{padding-left:0;font-weight:bold;}
+.valueLineIntro,.valueLineSearchResults,.valueLineItemArea{margin-left:0;}
+.valueLineIntro{padding-top:10px;}
+.garageContentWrap{overflow:visible;}
+.garageContentWrap.clearfix:after{display:none;}
+.zoomImageIconWrap,.baseIconSprite{display:none;}
+.multimediaGalleryGalleries .linkArrow13px,.multimediaGalleryGalleries .linkArrow13pxActive{display:block;}
+.introBasic{margin-bottom:20px;}
+.anchorItems,#engineLeftNavigationContainer,.engineColumnRight .imageBckRight{display:none;}
+.ie8 .engineColumnMiddleWrap{display:block!important;margin:0!important;position:relative;top:80px;}
+.defaultEngineItem{overflow:hidden;}
+.engineColumnMiddleWrap{display:inline;}
+.ie7 .engineColumnMiddleWrap{display:block!important;position:relative;}
+.fwSlideHeadlineContainer{left:0!important;}
+.topStageContainerCopyText,.socialmedialike,.topStageOptionalContent>.parsys>.linkList,.topStageOptionalContent>.parsys>.text,.topStageOptionalContent>.parsys>.textBlock,.productPresentationHeadlineFullwidth,.fwSlideshowHeadline,.financingOfferContent,.topStageOptionalContent>.parsys>.faqReference,.topStageOptionalContent>.parsys>.campaignLayerLink{margin-left:0!important;padding-left:0!important;}
+.teaserAreaContainer{display:none!important;}
+.offerArea,.smallTeaserContainer{display:none!important;}
+.defaultTeaser{display:none!important;}
+.buttonComp{color:#000;width:160px;border:1px solid;}
+.link{display:inline-block;}
+.navigation .backgroundImageImage{background:none;}
+.interactionListWrapper,.flexbox{display:none;}
+.contentContainerIntroWrap{margin-bottom:100px;margin-top:0;padding-top:60px;top:0;}
+#naviClipArea{display:none;}
+.overviewContainerStageHeadline{position:static;}
+.overviewElementText{margin-top:0;}
+div.overviewElementImage{display:inline;}
+div.overviewElementTextBlock{display:inline;}
+.overviewContainerStageTabs,.tagCloudWrap{display:none;}
+._overviewElement{display:block;width:580px;margin:0;clear:both;}
+.glassPaneLayerVisible .standardContent,.glassPaneLayerVisible #grey_layer{display:none;}
+#glassPaneLayer{left:50px!important;}
+.myBMWLeftArea,#myBMWStageArea .leftNavigationStage,.myBMWStageArea,.dashboardStageNavi{display:none;}
+.myBMWStageAreaReal,.myBMWStageAreaMain{position:static;}
+.largeTeaserHeadlineContainer{left:0!important;}
+.nccModuleNavigation{margin-left:20px;}
+.nccSelectionMenu{margin-left:260px;}
+#moviePlayer{width:900px!important;}
+#moveLayer{left:0!important;}
+#vehicleStageLow_mainImage{left:200px!important;}
+#vicStage{width:700px!important;}
+.vicVehicle{position:relative!important;float:left!important;left:0!important;top:0!important;}
+#vicFilterMenu .ui-slider-horizontal,.nccExpOrListSelector{display:none;}
+#nccBandwidthSelectorDiv,.nccBandwidthSelectorLabel{display:none!important;}
+.vicFilterTitle{display:block;}
+.vicModelTitle{display:none!important;}
+.nccModuleNavigation,.nccEngineSelectionBackgroundEngine{display:none;}
+.nccSelectionMenu{margin-left:0!important;}
+.nccLayoutRoot{width:820px;}
+#vehicleStageLow_zoomPlus,.nccNextButtonPlacement{display:none;}
+.TILTVIEW #animationImage,.EXTERIOR #animationImage{left:-85px!important;}
+.FINANCE #moveLayer{display:none;}
+.FINANCE .nccModelHeadline{margin-left:0;}
+.nccFinanceProductCarouselViewWrap{padding:0!important;}
+.INTERIOR .nccInteriorMask{display:none;}
+.INTERIOR .nccModelHeadline{position:static;margin-left:0;}
+.INTERIOR .nccModelHeadline h1{text-shadow:none!important;color:#262626!important;}
+.PACKAGES #moveLayer,.PACKAGES #animationImage,.PACKAGES .nccStage{position:static!important;}
+.PACKAGES .nccPagePackageSelection.nccExplorativeMode,.PACKAGES .nccSelectionMenu{margin-top:0;}
+.PACKAGES .nccVehicleStageHigh,.PACKAGES .nccStage{min-height:450px;}
+.TRIMS .nccLeftCol{position:static!important;}
+.TRIMS #vehicleStageLow{height:auto!important;}
+.TRIMS .nccStage,.FABRIC .nccStage{min-height:200px;position:static!important;}
+.FABRIC #vehicleStageLow_mainImage{position:static!important;}
+.RIMS #moviePlayer,.RIMS .nccLeftCol{position:static!important;}
+.RIMS #secondAnimationImage,.RIMS #animationImage{display:none!important;}
+.FinanceMain #animationImage,.INSURANCE #animationImage{display:none!important;}
+.nccOptionsExplorative{padding-top:30px;}
+.faqQuestion{font-weight:bold;}
+.faqItemWrap{border-bottom:none;}
+.faqHeadline.link13px{text-decoration:none;}
+.faqAnswerWrap .linkList{display:none;}
+.energyLabelIcon{height:inherit;text-indent:0;width:auto;}
+.topnavi .fastlaneNavSearchQueryBar,.topnavi .searchQueryBar,.topnavi .versionPanel{display:none!important;}
+.energyLabelIcon{height:auto;width:auto;text-indent:0;}
+.ie8 DIV.dealerContentLeft,.ie9 DIV.dealerContentLeft{clear:none!important;float:left!important;}
+.ie8 DIV.dealerContentRight,.ie9 DIV.dealerContentRight{clear:none!important;float:left!important;}
+.dealerContentRight .shadow{border:2px solid #e6e6e6;box-shadow:none!important;filter:none!important;}
+.dealerContentLeft .shadow{border:2px solid #e6e6e6;box-shadow:none!important;filter:none!important;}
+.contextLayerDialogMain{display:none!important;}
+.ie8 DIV.dealerContactCardImage,.ie9 DIV.dealerContactCardImage{clear:none!important;float:left!important;}
+.ie8 DIV.dealerDepartmentBoxContainer DIV.dealerDepartmentLeft{clear:none!important;float:left!important;}
+.ie8 DIV.dealerDepartmentBoxContainer DIV.dealerDepartmentRight{clear:none!important;float:right!important;}
+.ie8 DIV.dealerInfoBoxImage,.ie9 DIV.dealerInfoBoxImage{clear:none!important;float:left!important;}
+.ie8 DIV.dealerAddress,.ie9 DIV.dealerAddress{clear:none!important;float:left!important;}
+.ie8 DIV.dealerNavigationTeaserSmallImage,.ie9 DIV.dealerNavigationTeaserSmallImage{clear:none!important;float:left!important;}
+.ie8 DIV.dealerNavigationTeaserSmallContentRight,.ie9 DIV.dealerNavigationTeaserSmallContentRight{clear:none!important;float:left!important;}
+.ie8 DIV.dealerNewsImage,.ie9 DIV.dealerNewsImage{clear:none!important;float:left!important;}
+.ie8 DIV.dealerNewsContent,.ie9 DIV.dealerNewsContent{clear:none!important;float:left!important;}
+.ie8 .dealerOfferBaseToggle,.ie9 .dealerOfferBaseToggle{margin-bottom:16px;}
+.ie8 DIV.dealerOfferImageLargePreviewLeft,.ie9 DIV.dealerOfferImageLargePreviewLeft{clear:none!important;float:left!important;}
+.ie8 DIV.dealerOfferImageLargePreviewRight,.ie9 DIV.dealerOfferImageLargePreviewRight{clear:none!important;float:right!important;}
+.ie8 DIV.dealerOfferImageLargeItemPreview,.ie9 DIV.dealerOfferImageLargeItemPreview{clear:none!important;float:left!important;}
+.ie8 DIV.dealerOfferImageSmallPreviewLeft,.ie9 DIV.dealerOfferImageSmallPreviewLeft{clear:none!important;float:left!important;}
+.ie8 DIV.dealerOfferImageSmallPreviewRight,.ie9 DIV.dealerOfferImageSmallPreviewRight{clear:none!important;float:right!important;}
+.ie8 DIV.dealerOfferImageSmallItemPreview,.ie9 DIV.dealerOfferImageSmallItemPreview{clear:none!important;float:left!important;}
+.dealerStandard .leftNavigation{display:block!important;filter:none!important;}
+.dealerStandard .leftNavigation *{filter:none!important;}
+.ie8 DIV.dealerNewsItemNewsImageNCI,.ie9 DIV.dealerNewsItemNewsImageNCI{clear:none!important;float:left!important;}
+.ie8 DIV.dealerNewsItemNewsContentWithImageNCI,.ie9 DIV.dealerNewsItemNewsContentWithImageNCI{clear:none!important;float:left!important;}
+.ie8 DIV.dealerVehicleItemVehicleImageNCI,.ie9 DIV.dealerVehicleItemVehicleImageNCI{clear:none!important;float:left!important;}
+.ie8 DIV.dealerVehicleItemVehicleContentWithImageNCI,.ie9 DIV.dealerVehicleItemVehicleContentWithImageNCI{clear:none!important;float:left!important;}
+.ie8 DIV.dealerVehicleImage,.ie9 DIV.dealerVehicleImage{clear:none!important;float:left!important;}
+.ie8 DIV.dealerVehicleContent,.ie9 DIV.dealerVehicleContent{clear:none!important;float:left!important;}
+.myBMWStageAreaReal,.myBMWStageAreaMain{display:none;}
+#myBMWPageMyvehicles .navigationTabContainer>ul{display:none;}
+#myBMWPageMyvehicles .myAccountFormButtonBar{display:none;}
+#myBMWPageMyvehicles .vehiclemanualentrypoints{display:none;}
+.vehicleManualSearchBox{display:none!important;}
+.formButtonBar{display:none;}
+.vehicleManual .slideshow .slideshowImages .slideshowImage,.vehicleManual .slideshow .slideshowImages .slideshowImage.activated{display:block;margin-bottom:15px;}
+.vehicleManual .slideshow .slideshowImages{height:inherit!important;}
+.vehicleManual .slideshow .slideshowPrev,.vehicleManual .slideshow .slideshowNext{display:none;}
+.vehicleManual .hotspots .hotspotimagecontainer,.vehicleManual .illustration,.vehicleManual .slideshow .slideshowImages{page-break-before:auto;page-break-after:auto;page-break-inside:avoid;}
+@page{margin-left:5mm;margin-right:5mm;}
+body,html{overflow-y:visible!important;}
+.glassPane{display:none!important;}
+.subBrandSwitchArea{display:none;}
+.glassPaneLayerContent,.gplnContentValue,.gplnAjaxContent,.gplnContent,.glassPaneLayerLayerWrapObject,.glassPaneLayerDialog,.glassPaneLayerNextWrapper{overflow-y:visible!important;overflow:visible!important;height:auto!important;max-height:none!important;display:block!important;position:static!important;}
+.dloBaseFS .watchlistPar,.dloBaseFS .dloFormSearchArea,.dloBaseFS .resultTabArea,.dloBaseFS .dloMapShadow,.dloBaseFS #dloRouteResultPrint,.dloBaseFS .routeProposalText{display:none!important;}
+.dloBaseFS .dealerLocatorComponent{height:auto!important;}
+.dloBaseFS .dloControl{left:0;position:static;top:0;}
+.dloBaseFS .smallAccordion-content{height:auto!important;width:33%;}
+.dloMapBaseFS .smallAccordion-tab,.dloMapBaseFS .dloMapShadow.top,.dloMapBaseFS .dloMapShadow.right,.dloMapBaseFS .dloMapShadow.bottom,.dloMapBaseFS .dloMapShadow.left{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.dloMapBaseFS .smallAccordion-tab{-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(enabled=false)";}
+.dloBaseFS .dloRouteplanningControl{height:auto!important;max-height:none!important;overflow:visible!important;}
+.ie8 .dloBaseFS .dloRouteplanningControl{max-height:100%!important;}
+.dloBaseFS .routealternativesEntry{display:none;}
+.dloBaseFS .routealternativesEntry.routealternativesSelected{display:block;}
+.dloBaseFS #dloRouteResult .routedirectionsStep{margin-top:10px;}
+.dloBaseFS #dloRouteResult .routedirectionsInstructions{width:85%;}
+.pageBackgroundImage{display:none;}

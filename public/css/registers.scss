@@ -1,0 +1,21 @@
+$m0a:0 auto;
+$bgf:#fff;
+$w12:1200px;
+body{
+	background:#e7e8ec;
+}
+.header{
+	width:100%;
+	background:$bgf;
+	.inheader{
+		width:$w12;
+		height:65px;
+		margin:$m0a;
+	}
+}
+.main{
+	width:1198px;
+	margin:$m0a;
+	background:$bgf;
+	border:1px solid #ccc;
+}

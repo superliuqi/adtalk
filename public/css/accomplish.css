@@ -1,0 +1,102 @@
+body,html,div,h1,ul,li{list-style:none;padding:0;margin:0;}
+body {
+  background: #e7e8ec;
+  overflow-x: hidden; }
+label.error{
+  margin:2px 0;
+  font-weight:normal;
+  color:red;
+  font-size:12px;
+}
+/*header开始*/
+.header {
+  width: 100%;
+  height:65px;
+  background: #fff; }
+.inheader {
+    width: 1200px;
+    line-height:65px;
+    margin: 0 auto;
+    padding-top:14px;
+}
+/* 主内容开始 */
+.main {
+  width: 1198px;
+  margin: 50px auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  position: relative;
+}
+h1{
+  text-indent:-9999px;
+  width:200px;
+  height:50px;
+  background:url('../images/logo.png') no-repeat center top;
+  -webkit-background-size:contain;
+  background-size:contain;
+  -ms-background-size:contain;
+
+}
+/*进度条开始*/
+.step{
+  overflow: hidden;
+  text-align:center;
+}
+.uu{
+  width:734px;
+  height:2px;
+  border-bottom:1px solid #ccc;
+  position: absolute;
+  left:200px;
+  top:74px;
+  z-index:1;
+}
+.step li{
+  width:100px;
+  float: left;
+  margin:50px 0 100px 150px;
+  position: relative;
+  z-index:2;
+}
+.step li span{
+  width:50px;
+  height:50px;
+  text-align:center;
+  line-height:50px;
+  border: 1px solid #999;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background:#fff;
+  border-radius:50%;
+  margin-bottom:5px;
+}
+.step li.current span{
+  color:#fff;
+  background:#44b549;
+  border:none;
+}
+.step li.current p{
+  color:#44b549; 
+}
+.btn-success a{
+  color:#fff;
+}
+.success{
+  width:400px;
+  height:128px;
+  margin:0 auto 200px;
+  padding:20px 0 0 200px;
+  background:url(../images/u86.png) no-repeat center left;
+}
+.success p{
+  margin:10px 0 30px;
+  color:#5cb85c;
+  padding:0;
+}
+.form-group{
+  margin:0 auto;
+  background:url(../images/u86.png) no-repeat;
+}
+/*------------------基本信息结束-------------------------*/
+

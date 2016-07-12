@@ -1,0 +1,163 @@
+/* 
+* @Author: zhouyan
+* @Date:   2015-09-18 11:19:51
+* @Last Modified by:   zhouyan
+* @Last Modified time: 2016-01-05 11:16:25
+*/
+ul,li,input{list-style:none;padding:0;margin:0;}
+body {
+  background: #fff;
+  overflow-x: hidden; }
+/*header开始*/
+.header {
+  width: 100%;
+  background: #fff; }
+  .header .inheader {
+    width: 1200px;
+    height: 105px;
+    line-height:105px;
+    margin: 0 auto; }
+label.error{
+  margin:2px 0;
+  font-weight:normal;
+  color:red;
+  font-size:12px;
+}
+span.error{
+	color:red;
+	font-size: 12px;
+}
+h1{
+  text-indent:-9999px;
+  width:265px;
+  height:65px;
+  background:url('../images/logo.png') no-repeat center top;
+  -webkit-background-size:contain;
+  background-size:contain;
+}
+
+/*main开始*/
+/*背景开始*/
+.main{
+	width:100%;
+	height:650px;
+	overflow: hidden;
+	background:#eef2fb;
+	margin-bottom:50px;
+}
+.inmain{
+	width:1100px;
+	height:500px;
+	margin:0 auto;
+}
+.bg{
+	height:500px;
+	background:url(../images/login.png) no-repeat center left;
+	-webkit-background-size:contain;
+	-moz-background-size:contain;
+  	background-size:contain;
+}
+/*背景结束*/
+.por{
+  position: relative;
+}
+.por span{
+  position: absolute;
+  top:10px;
+  right:-30px;
+  color:#44b549;
+  display:none;
+}
+.por .glyphicon-remove{
+  width:100px;
+  color:red;
+  right:14px;
+}
+.glyphicon-remove:before{
+  position: absolute;
+  top:2px;
+  left:-17px;
+}
+h6{
+	margin:0;
+	background:#999;
+}
+h1{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	float: left;
+	color: #5cb85c;
+}
+.user-number{
+	float: right;
+}
+/*header结束*/
+.login{
+	margin:100px auto;
+	padding:0px 0 20px;
+	border: 1px solid #ccc;
+	background:#fff;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.login a{
+	position: relative;
+	top:8px;
+	left:3px;
+}
+.btn{
+	margin-bottom:55px;
+
+}
+label{
+	font-weight:normal;
+}
+.form-group.hd{
+	margin:0;
+	font-size:18px;
+	font-weight:bold;
+	background-color: #44b549;
+	height:46px;
+	line-height:46px;
+	color:#fff;
+}
+.register-btn{
+	margin-top:30px;
+}
+p{
+	text-align:center;
+}
+.footer{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+}
+ul.links{
+	width:500px;
+	text-align:center;
+	overflow-x: hidden;
+}
+.links li{
+	float: left;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-left:10px;
+	color:#ccc;
+}
+.other{
+	text-align: center;
+}
+.other .col-sm-9{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	}
+.error{
+	margin-bottom:2px;
+	padding:0;
+	color:red;
+	font-size:12px;
+	display: none;
+}

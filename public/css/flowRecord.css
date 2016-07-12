@@ -1,0 +1,252 @@
+/* 
+* @Author: zhouyan
+* @Date:   2015-09-21 14:46:16
+* @Last Modified by:   zhouyan
+* @Last Modified time: 2016-01-19 18:48:51
+*/
+/*body,html,h1,h2,h3,h4,h5,h6,li,ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}*/
+html{
+  overflow-x: hidden;
+}
+.header {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+.header .inheader {
+    width: 1200px;
+    height: 65px;
+    line-height:65px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.notice{
+  position: absolute;
+  top:84px;
+  width:1200px;
+  left:30%;
+  color: red;
+}
+.predictPrice{
+  width:100px;
+  height:180px;
+  border: 1px solid #ccc;
+  position: fixed;
+  top:35%;
+  right:10%;
+  padding:10px 5px;
+}
+.predictPrice .bt{
+  color:#333;
+  font-size:16px;
+}
+.price{
+  color:#f40;
+}
+.explain{
+  font-size:12px;
+  margin-top:40px;
+}
+.wrap{
+  overflow: hidden;
+  width:1200px;
+  margin:70px auto;
+}
+.nav{
+  float: left;
+  text-align:center;
+  /*margin-top:40px;*/
+}
+.accordion{
+  border: 1px solid #ccc;
+  height:570px;
+  width:183px;
+  margin-bottom:10px;
+}
+.container-fluid{
+  padding:0;
+}
+.accordion-heading a{
+  font-size:16px;
+  color:#009900;
+  font-weight: 700;
+  line-height:50px;
+}
+.accordion-inner{
+  font-weight: 400;
+  font-size:16px;
+  line-height:38px;
+  padding-left:45px;
+}
+.current{
+  border: 1px solid #ccc;
+  background:-webkit-linear-gradient(top,#fff,#ccc);
+  background:-ms-linear-gradient(top,#fff,#ccc);
+  background:-moz-linear-gradient(top,#fff,#ccc);
+  background:-o-linear-gradient(top,#fff,#ccc);
+}
+.help{
+  border: 1px solid #ccc;
+  background:url(../images/u68.png) no-repeat left center;
+  background-size:contain;
+  text-align:left;
+  padding-left:56px;
+
+}
+.help p,.help span{
+  font-size:16px;
+  font-weight:700px;
+}
+.help span{
+  color:#FF9D04;
+}
+h5{
+  font-size:20px;
+  /*padding-left:54px;*/
+  font-weight:bold;
+  margin-bottom:30px;
+}
+.user-number{
+  padding:0;
+}
+ label.error{
+  margin:2px 0;
+  font-weight:normal;
+  color:red;
+  font-size:12px;
+}
+label.control-label{
+  font-weight:normal;
+}
+label.control-label span{
+  color:red;
+  font-size:16px;
+}
+textarea{
+  resize:none;
+}
+h1{
+  text-indent:-9999px;
+  background:url('../images/logo.png') no-repeat;
+  -webkit-background-size:contain;
+  background-size:contain;
+}
+#search{
+  width:200px;
+  line-height:28px;
+  font-size:18px;
+  font-weight:bold;
+} 
+table th,td{
+  text-align:center;
+}
+table .title th{
+  background:#247496;
+  color:#fff;
+}
+.table-responsive{
+  margin-top:50px;
+  overflow: hidden;
+}
+p{
+  color:#999;
+}
+audio{
+  margin:10px 0;
+}
+textarea{
+  border-radius:5px;
+}
+.voice{
+  margin:45px 0;
+}
+.hd{
+  text-indent:center;
+  background:#ccc;
+  height:100px;
+  line-height:100px;
+  font-size:20px;
+}
+#list span{
+  cursor:pointer;
+}
+#list p,.pop p{
+  color:#333;
+}
+.pop{
+  width:300px;
+  height:200px;
+  border-radius:5px;
+  border: 2px solid #ccc;
+  background:#fafafa;
+  position: fixed;
+  top:30%;
+  left:45%;
+  text-align: center;
+  display: none;
+
+}
+.pop p{
+  margin:50px 0 38px;
+}
+.pop button{
+  margin-left:18px;
+}
+#resendSuccess{
+  position: fixed;
+  top:48%;
+  left:48%;
+  color:#44b549;
+  display: none;
+}
+#resendSuccess:before{
+  position: absolute;
+  top:2px;
+  left:-21px;
+}
+.text-box{
+  border:1px solid #ccc;
+  border-radius:4px;
+  text-align:center;
+  height:34px;
+}
+tbody th{
+    font-size:14px;
+    font-weight:normal; 
+}
+tbody button{
+    border-radius:4px;
+    padding:3px 8px;
+    border:none;
+    color:#fff;
+    margin-right:5px;
+}
+button.submit,button.edit{
+    background-color:#247496;
+}
+button.stop{
+    background-color:#9d0000;
+}
+table td div{
+    width:100px !important;
+    height:40px;
+    word-wrap : break-word;
+    overflow-y: hidden;
+    text-overflow:ellipsis;
+}
+.adhead{
+    width:150px;
+}
+td div{
+    height:40px !important;
+    text-overflow:ellipsis;
+    overflow-y: hidden;
+}
+#datetimepicker{
+    float: left;
+    margin-right:10px;
+} 
